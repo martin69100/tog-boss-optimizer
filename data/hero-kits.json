@@ -2492,7 +2492,8 @@
               "attackRating": 0.5,
               "critRating": 0.1,
               "critBonusRating": 0.2,
-              "haste": 20
+              "haste": 20,
+              "basicAttackCoefBonus": 2.5
             }
           }
         },
@@ -7132,7 +7133,8 @@
           "name": "Two Thirteen-Month Series Weapons",
           "selfHitBarrier": 10,
           "permanentSelf": {
-            "attackHaste": 50
+            "attackHaste": 50,
+            "basicAttackCoefBonus": 26
           }
         },
         "ee4": {

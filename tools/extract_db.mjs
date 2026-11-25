@@ -1934,8 +1934,8 @@ function main() {
       else if (r.h === 10) mult *= (bcMap["401normalGrowth"] || 1.007);
       else if (r.h === 11) mult *= (bcMap["401hugeGrowth"] || 1.05);
     } else if (r.ct === 1) {
-      if (r.h === 20) mult *= 1.003;
-      else if (r.h === 21) mult *= 1.01;
+      if (r.h === 20) mult *= (1 + (bcMap["2001normalGrowth"] || 0.03));
+      else if (r.h === 21) mult *= (1 + (bcMap["2001hugeGrowth"] || 0.10));
     }
     SLOT_LEVEL_MULT[r.lv] = Number(mult.toPrecision(7));
   }
