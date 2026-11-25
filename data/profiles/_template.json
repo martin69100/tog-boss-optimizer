@@ -1,0 +1,87 @@
+{
+  "profileId": "_template",
+  "displayName": "Modèle Ami / Membre d'Alliance",
+  "shinsuLevel": 1600,
+  "shinsuSlotLevels": [
+    1600,
+    1600,
+    1600,
+    1600,
+    1600
+  ],
+  "highLinkBonus": 0,
+  "shinsuCoreLevel": 7,
+  "excludeCollab": true,
+  "allianceBuffLv": 10,
+  "iwSoulLevels": {
+    "celina": 0,
+    "doris": 0,
+    "bergamot": 0,
+    "el": 0,
+    "runda": 0,
+    "raihanna": 0,
+    "abgrund": 0,
+    "idea": 0,
+    "sundance": 0,
+    "sela": 0,
+    "alocasia": 0,
+    "rafflesia": 0,
+    "bari": 0,
+    "mago": 0,
+    "asura": 0,
+    "capelinel": 0
+  },
+  "triEssenceByType": {
+    "STR": {
+      "health": 0,
+      "accuracy": 280,
+      "haste": 50,
+      "attack": 0,
+      "defense": 0,
+      "dodge": 50,
+      "healthRating": 0,
+      "attackRating": 0,
+      "defenseRating": 0
+    },
+    "DEX": {
+      "health": 0,
+      "accuracy": 280,
+      "haste": 50,
+      "attack": 0,
+      "defense": 0,
+      "dodge": 50,
+      "healthRating": 0,
+      "attackRating": 0,
+      "defenseRating": 0
+    },
+    "INT": {
+      "health": 0,
+      "accuracy": 280,
+      "haste": 50,
+      "attack": 0,
+      "defense": 0,
+      "dodge": 50,
+      "healthRating": 0,
+      "attackRating": 0,
+      "defenseRating": 0
+    }
+  },
+  "triEssencePierce": 25,
+  "triEssenceRes": 35,
+  "airships": {
+    "lux_imperium": { "owned": false, "level": 0, "skillLv": 0 },
+    "carcharias": { "owned": false, "level": 0, "skillLv": 0 },
+    "gloamspire": { "owned": false, "level": 0, "skillLv": 0 },
+    "ignis_ira": { "owned": false, "level": 0, "skillLv": 0 },
+    "red_death": { "owned": false, "level": 0, "skillLv": 0 },
+    "azure_tempest": { "owned": false, "level": 0, "skillLv": 0 },
+    "tempest_hawk": { "owned": false, "level": 0, "skillLv": 0 },
+    "vigilantia": { "owned": false, "level": 0, "skillLv": 0 },
+    "aquila_nova": { "owned": false, "level": 0, "skillLv": 0 },
+    "albatross": { "owned": true, "level": 0, "skillLv": 5 },
+    "epervier": { "owned": true, "level": 0, "skillLv": 5 }
+  },
+  "boxFactionsLoaded": [],
+  "box": {}
+}
+

@@ -1,0 +1,5 @@
+# Base SQLite brute (>100 Mo, disponible dans la Release GitHub v1.0)
+data/tog_data_decrypted.db
+*.log
+.DS_Store
+Thumbs.db

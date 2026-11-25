@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ToG: New World — Optimiseur de Teams Boss (DB Exacte)</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <h1>
+        ToG: New World — Optimiseur Boss
+        <span id="dbStatsBadge" class="badge">Chargement DB...</span>
+      </h1>
+      <p>Données exactes de <code>tog_data_decrypted.db</code> (paliers, <code>stat_list</code>, <code>slot_level</code>, 191 héros) &middot; Aucune dépendance externe</p>
+    </div>
+    <div class="topbar-actions">
+      <div class="boss-picker-wrap">
+        <label for="bossSelect">Boss / Mode</label>
+        <select id="bossSelect"></select>
+      </div>
+      <div class="boss-picker-wrap">
+        <label for="optModeSelect">Équipes</label>
+        <select id="optModeSelect">
+          <option value="1">1 Équipe (5 héros)</option>
+          <option value="2">2 Équipes disjointes (10 héros + 2 Vaisseaux)</option>
+        </select>
+      </div>
+      <button id="btnOptimize" class="btn-primary">Trouver les meilleures teams</button>
+    </div>
+  </header>
+
+  <main class="container">
+    <!-- Ligne 1 : Fiche Boss DB + Progression Globale -->
+    <section class="grid-2">
+      <div class="card">
+        <div class="card-header">
+          <h2>1. Boss &amp; Inspecteur de Paliers DB</h2>
+          <div class="badges-row">
+            <span id="bossRestrictionPill" class="pill">Restriction</span>
+            <span id="bossElementPill" class="pill">Élément</span>
+          </div>
+        </div>
+        <p id="bossDescription" class="muted"></p>
+
+        <div class="palier-box">
+          <div class="palier-head">
+            <label for="palierSlider">Inspecter le Palier DB : <strong id="palierLabel">132</strong> / <span id="palierMaxLabel">500</span></label>
+            <span id="palierLvBadge" class="badge-subtle">Boss Lv. 1322</span>
+          </div>
+          <input type="range" id="palierSlider" min="1" max="500" value="132" />
+          <div class="stats-mini-grid" id="palierStatsGrid"></div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header">
+          <h2>2. Progression du Compte &amp; Filtres</h2>
+          <button id="btnToggleBox" class="btn-ghost" type="button">Ma Box / Verrouiller</button>
+        </div>
+
+        <div class="account-bar" style="margin-bottom: 10px; padding: 8px 10px; border: 1px solid rgba(148,163,184,0.22); border-radius: 8px; background: rgba(15,23,42,0.45);">
+          <div style="display:flex; flex-wrap:wrap; align-items:center; justify-content:space-between; gap:8px;">
+            <div style="display:flex; flex-wrap:wrap; align-items:center; gap:8px;">
+              <label class="inline-check" style="font-weight:600;"><input type="checkbox" id="chkUseAccount" /> Profil compte</label>
+              <select id="selectAccountProfile" style="max-width:230px;"></select>
+            </div>
+            <label class="btn-xs" style="cursor:pointer;">Importer JSON <input type="file" id="inputAccountJson" accept=".json" style="display:none;" /></label>
+          </div>
+          <div id="accountSummaryText" class="muted" style="font-size:12px; margin-top:4px;">Aucun profil chargé (mode manuel global).</div>
+        </div>
+
+        <div class="form-grid">
+          <div class="field">
+            <label>Lien Shinsu</label>
+            <input type="number" id="progShinsu" value="1914" min="1" max="3000" />
+            <div class="preset-chips">
+              <button type="button" class="chip" data-shinsu="400">400</button>
+              <button type="button" class="chip" data-shinsu="800">800</button>
+              <button type="button" class="chip" data-shinsu="1200">1200</button>
+              <button type="button" class="chip" data-shinsu="1500">1500</button>
+              <button type="button" class="chip" data-shinsu="1914">1914</button>
+              <button type="button" class="chip" data-shinsu="2200">2200</button>
+            </div>
+          </div>
+          <div class="field">
+            <label>High Link (+Niveaux sur le meilleur slot)</label>
+            <input type="number" id="progHighLink" value="20" min="0" max="100" />
+          </div>
+          <div class="field">
+            <label>IW (Armes d'Ignition)</label>
+            <select id="progIwMode">
+              <option value="soul0" selected>Sets +20 (Âme Lv. 0)</option>
+              <option value="none">Aucun IW (IW 0)</option>
+            </select>
+            <label class="inline-check"><input type="checkbox" id="chkExcludeCollab" /> Exclure les héros Collab</label>
+          </div>
+          <div class="field">
+            <label>Limit Break (Étoiles)</label>
+            <select id="progLb">
+              <option value="21" selected>Arc-en-ciel 5★ (Max)</option>
+              <option value="18">Arc-en-ciel 2★</option>
+              <option value="15">Orange 3★</option>
+              <option value="12">Rouge 3★</option>
+              <option value="9">Violet 3★</option>
+              <option value="6">Bleu 3★</option>
+              <option value="3">Vert 3★</option>
+            </select>
+          </div>
+          <div class="field">
+            <label>Équipement Exclusif (EE)</label>
+            <select id="progEe">
+              <option value="40" selected>EE +40</option>
+              <option value="30">EE +30</option>
+              <option value="20">EE +20</option>
+              <option value="10">EE +10</option>
+              <option value="0">EE +0</option>
+            </select>
+          </div>
+          <div class="field">
+            <label>Révolution (Palier 0-6)</label>
+            <input type="number" id="progRev" value="6" min="0" max="6" />
+          </div>
+          <div class="field">
+            <label>Vaisseau Suspendu</label>
+            <select id="progAirship"></select>
+            <label class="inline-check"><input type="checkbox" id="chkAutoAirship" checked /> Optimiser le Vaisseau automatiquement</label>
+          </div>
+          <div class="field" id="allianceBuffField">
+            <label>Buffs Boss Alliance (<span id="allianceBuffVal">10</span>/10)</label>
+            <input type="range" id="progAllianceBuffs" min="0" max="10" value="10" />
+          </div>
+          <div class="field">
+            <label>Tri-Essence : Précision</label>
+            <input type="number" id="progTriAcc" value="280" min="0" max="2000" />
+          </div>
+          <div class="field">
+            <label>Tri-Essence : Perforation (%)</label>
+            <input type="number" id="progTriPierce" value="25" min="0" max="200" />
+          </div>
+          <div class="field">
+            <label>Tri-Essence : Résistances (%)</label>
+            <input type="number" id="progTriRes" value="35" min="0" max="150" />
+          </div>
+        </div>
+
+        <div id="boxDrawer" class="box-drawer hidden">
+          <div class="box-drawer-head">
+            <span>Cochez les héros possédés (<span id="boxEligibleCount">0</span> éligibles pour ce boss) :</span>
+            <div class="box-btns">
+              <button type="button" id="btnBoxAll" class="btn-xs">Tout cocher</button>
+              <button type="button" id="btnBoxReset" class="btn-xs">Réinitialiser</button>
+            </div>
+          </div>
+          <div id="boxHeroGrid" class="box-hero-grid"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Ligne 2 : Top 10 Meilleures Teams -->
+    <section class="card">
+      <div class="card-header">
+        <h2>3. Top Meilleures Teams Recommandées</h2>
+        <span id="optStatusText" class="muted">Prêt — cliquez sur « Trouver les meilleures teams ».</span>
+      </div>
+      <div id="optProgressWrap" class="progress-wrap hidden">
+        <div id="optProgressBar" class="progress-bar"></div>
+      </div>
+      <div id="rankingsGrid" class="rankings-grid"></div>
+    </section>
+
+    <!-- Ligne 3 : Bac à sable / Inspecteur détaillé -->
+    <section class="card">
+      <div class="card-header">
+        <h2>4. Simulateur Détaillé &amp; Diagnostics (équipe sélectionnée)</h2>
+        <button id="btnRunSandbox" class="btn-secondary" type="button">Relancer Simulation (90s)</button>
+      </div>
+
+      <div id="sandboxSlots" class="sandbox-slots"></div>
+
+      <div class="sandbox-results-grid">
+        <div>
+          <h3>Stats de Combat (90s)</h3>
+          <div id="sandboxSummaryKPIs" class="kpi-row"></div>
+          <table class="stats-table">
+            <thead>
+              <tr>
+                <th>Héros</th>
+                <th>Ligne</th>
+                <th>Set</th>
+                <th>Dégâts infligés</th>
+                <th>Part</th>
+                <th>Ults</th>
+                <th>Survie</th>
+              </tr>
+            </thead>
+            <tbody id="sandboxTableBody"></tbody>
+          </table>
+        </div>
+        <div>
+          <h3>Multiplicateurs Moyens &amp; Courbe 90s</h3>
+          <div id="multDiagnostics" class="mult-grid"></div>
+          <div id="timelineChart" class="chart-box"></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="data/db-bundle.js"></script>
+  <script src="data/account-profiles.js"></script>
+  <script src="engine/simulator.js"></script>
+  <script src="engine/optimizer.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
