@@ -393,7 +393,7 @@
     const eligible = DB.CHARACTERS.filter(c => !boss.allowedFactions || boss.allowedFactions.includes(c.faction));
     const eligibleSet = new Set(eligible.map(c => c.id));
     if (sandboxTeam.length !== 5 || sandboxTeam.some(u => !eligibleSet.has(u.charId))) {
-      sandboxTeam = eligible.slice(0, 5).map((c, idx) => OPT.makeUnitSpec(c, { row: SIM.getSlotRow(idx) }));
+      sandboxTeam = eligible.slice(0, 5).map((c, idx) => OPT.makeUnitSpec(c, { row: SIM.getSlotRow(idx, boss) }));
     }
   }
 
@@ -409,7 +409,7 @@
       box.className = "slot-editor";
       box.innerHTML = `
         <div class="slot-editor-title">
-          <span>Slot ${idx + 1} (${SIM.getSlotRow(idx)})</span>
+          <span>Slot ${idx + 1} (${SIM.getSlotRow(idx, boss)})</span>
         </div>
         <select class="sel-char"></select>
         <select class="sel-set"></select>
@@ -428,7 +428,7 @@
       selChar.addEventListener("change", () => {
         const ch = DB.CHARACTERS.find(x => x.id === selChar.value);
         if (ch) {
-          sandboxTeam[idx] = OPT.makeUnitSpec(ch, { row: SIM.getSlotRow(idx) });
+          sandboxTeam[idx] = OPT.makeUnitSpec(ch, { row: SIM.getSlotRow(idx, boss) });
           renderSandboxSlots();
           runSandboxSim();
         }

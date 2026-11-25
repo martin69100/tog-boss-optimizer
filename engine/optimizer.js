@@ -32,20 +32,20 @@
     }, boxStats, overrides || {});
   }
 
-  function hasRowAuraDuplicate(team, slotIdx, setKey) {
+  function hasRowAuraDuplicate(team, slotIdx, setKey, bossConfig) {
     const ign = DB.IGNITION_SETS[setKey];
     if (!ign || !ign.uniqueAura) return false;
-    const row = SIM.getSlotRow(slotIdx);
+    const row = SIM.getSlotRow(slotIdx, bossConfig);
     for (let i = 0; i < team.length; i++) {
       if (i === slotIdx) continue;
       if (ign.backRowOnly && row !== "BACK") return true;
-      if (team[i].set === setKey && (!ign.sameRowOnly || SIM.getSlotRow(i) === row)) return true;
+      if (team[i].set === setKey && (!ign.sameRowOnly || SIM.getSlotRow(i, bossConfig) === row)) return true;
     }
     return false;
   }
 
   function getCandidateSetsForChar(char, team, slotIdx, globalProg, bossConfig) {
-    const row = SIM.getSlotRow(slotIdx);
+    const row = SIM.getSlotRow(slotIdx, bossConfig);
     const isSup = char.role === "Support" || char.role === "Tank";
     const hasCc = Number(bossConfig?.bossSkills?.ccInterval || 0) > 0;
     const souls = globalProg?.iwSoulLevels || {};
@@ -60,7 +60,7 @@
       "raihanna", "asura", "mago", "sundance", "el",
       "capelinel", "runda", ...(row === "BACK" ? ["doris"] : []), "idea", "bari", "rafflesia"
     ];
-    return [...new Set(base)].filter(s => DB.IGNITION_SETS[s] && !hasRowAuraDuplicate(team, slotIdx, s)).slice(0, 14);
+    return [...new Set(base)].filter(s => DB.IGNITION_SETS[s] && !hasRowAuraDuplicate(team, slotIdx, s, bossConfig)).slice(0, 14);
   }
 
   function getEligibleCharacters(bossConfig, options, globalProg) {
@@ -418,7 +418,8 @@
 
       for (let pass = 0; pass < 2; pass++) {
         let improved = false;
-        const slotOrder = [3, 4, 0, 1, 2];
+        const fc = Number(bossConfig?.frontCount ?? 3);
+        const slotOrder = [0, 1, 2, 3, 4].sort((a, b) => (a >= fc ? 0 : 1) - (b >= fc ? 0 : 1));
         for (const slot of slotOrder) {
           if (lockedSlots[slot]) continue;
           const usedElsewhere = new Set(team.filter((_, i) => i !== slot).map(u => u.charId));
@@ -429,7 +430,7 @@
             const sets = isIwNone ? ["none"] : getCandidateSetsForChar(ch, team, slot, globalProg, bossConfig);
             const sKey = isIwNone ? "none" : (sets[0] || "idea");
             const candidateUnit = makeUnitSpec(ch, {
-              row: SIM.getSlotRow(slot),
+              row: SIM.getSlotRow(slot, bossConfig),
               set: sKey
             }, globalProg);
             const trial = team.map((u, i) => (i === slot ? candidateUnit : u));
@@ -491,27 +492,28 @@
       }
     };
 
+    const defaultBackSlot = Number(bossConfig?.frontCount ?? 3) < 5 ? Number(bossConfig?.frontCount ?? 3) : 3;
     const fillSeedWithCarry = (carryChar, secondChar, carrySlot) => {
       const used = new Set();
       const slots = [null, null, null, null, null];
       for (const [sIdx, cid] of Object.entries(lockedSlots)) {
         const ch = DB.CHARACTERS.find(c => c.id === cid);
         if (ch) {
-          slots[Number(sIdx)] = makeUnitSpec(ch, { row: SIM.getSlotRow(Number(sIdx)) }, globalProg);
+          slots[Number(sIdx)] = makeUnitSpec(ch, { row: SIM.getSlotRow(Number(sIdx), bossConfig) }, globalProg);
           used.add(ch.id);
         }
       }
-      const cIdx = carrySlot !== undefined ? carrySlot : 3;
+      const cIdx = carrySlot !== undefined ? carrySlot : defaultBackSlot;
       if (!slots[cIdx] && !used.has(carryChar.id)) {
         const cSets = isIwNone ? ["none"] : getCandidateSetsForChar(carryChar, slots.filter(Boolean), cIdx, globalProg, bossConfig);
-        slots[cIdx] = makeUnitSpec(carryChar, { row: SIM.getSlotRow(cIdx), set: cSets[0] || carryChar.recommendedSet }, globalProg);
+        slots[cIdx] = makeUnitSpec(carryChar, { row: SIM.getSlotRow(cIdx, bossConfig), set: cSets[0] || carryChar.recommendedSet }, globalProg);
         used.add(carryChar.id);
       }
       if (secondChar && !used.has(secondChar.id)) {
-        const sIdx = !slots[4] ? 4 : (!slots[3] ? 3 : slots.findIndex(x => !x));
+        const sIdx = !slots[4] ? 4 : (!slots[defaultBackSlot] ? defaultBackSlot : slots.findIndex(x => !x));
         if (sIdx >= 0 && !slots[sIdx]) {
           const sSets = isIwNone ? ["none"] : getCandidateSetsForChar(secondChar, slots.filter(Boolean), sIdx, globalProg, bossConfig);
-          slots[sIdx] = makeUnitSpec(secondChar, { row: SIM.getSlotRow(sIdx), set: sSets[0] || secondChar.recommendedSet }, globalProg);
+          slots[sIdx] = makeUnitSpec(secondChar, { row: SIM.getSlotRow(sIdx, bossConfig), set: sSets[0] || secondChar.recommendedSet }, globalProg);
           used.add(secondChar.id);
         }
       }
@@ -522,7 +524,7 @@
           if (!pick) return null;
           used.add(pick.id);
           const sets = isIwNone ? ["none"] : getCandidateSetsForChar(pick, slots.filter(Boolean), i, globalProg, bossConfig);
-          slots[i] = makeUnitSpec(pick, { row: SIM.getSlotRow(i), set: sets[0] || pick.recommendedSet }, globalProg);
+          slots[i] = makeUnitSpec(pick, { row: SIM.getSlotRow(i, bossConfig), set: sets[0] || pick.recommendedSet }, globalProg);
         }
       }
       return slots;
@@ -530,7 +532,7 @@
 
     const seeds = [];
     for (let i = 0; i < carryPool.length; i++) {
-      const sBack = fillSeedWithCarry(carryPool[i], null, 3);
+      const sBack = fillSeedWithCarry(carryPool[i], null, defaultBackSlot);
       if (sBack) seeds.push({ team: sBack, carry: carryPool[i] });
       if (i < Math.min(2, carryPool.length)) {
         const sFront = fillSeedWithCarry(carryPool[i], null, 0);
@@ -538,7 +540,7 @@
       }
     }
     if (carryPool.length >= 2) {
-      const sDual1 = fillSeedWithCarry(carryPool[0], carryPool[1], 3);
+      const sDual1 = fillSeedWithCarry(carryPool[0], carryPool[1], defaultBackSlot);
       if (sDual1) seeds.push({ team: sDual1, carry: carryPool[0] });
     }
 
@@ -563,7 +565,7 @@
             ? ["none"]
             : [...new Set([sets[0] || ch.recommendedSet, ...(baseSlotSet && sets.includes(baseSlotSet) ? [baseSlotSet] : [])])];
           for (const sKey of setsToTry) {
-            const trial = bestBase.team.map((u, i) => (i === slot ? makeUnitSpec(ch, { row: SIM.getSlotRow(slot), set: sKey }, globalProg) : u));
+            const trial = bestBase.team.map((u, i) => (i === slot ? makeUnitSpec(ch, { row: SIM.getSlotRow(slot, bossConfig), set: sKey }, globalProg) : u));
             const sig = teamSignature(trial);
             const prev = distinctBySig.get(sig);
             if (!prev || setsToTry.length > 1) {

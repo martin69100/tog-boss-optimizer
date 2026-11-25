@@ -126,8 +126,9 @@
     }
   }
 
-  function getSlotRow(slotIndex) {
-    return slotIndex <= 2 ? "FRONT" : "BACK";
+  function getSlotRow(slotIndex, bossConfig) {
+    const fc = Number(bossConfig?.frontCount ?? 3);
+    return slotIndex < fc ? "FRONT" : "BACK";
   }
 
   const EMPTY_IGN_SET = {
@@ -717,7 +718,7 @@
 
       return {
         slotIndex: idx,
-        row: cfg.row || getSlotRow(idx),
+        row: cfg.row || getSlotRow(idx, bossConfig),
         cfg,
         statInfo,
         char,
@@ -753,6 +754,7 @@
         ideaLeft: ignSet.bonus4p?.ultEnergyRefund ? ignSet.bonus4p.ultEnergyRefund.maxTriggers : 0,
         rundaReadyAt: ignSet.bonus4p?.rowBarrierPulse ? (ignSet.bonus4p.rowBarrierPulse.cooldown || 5.0) : 999,
         capelinelReadyAt: ignSet.bonus4p?.rowBarrierPierce ? (ignSet.bonus4p.rowBarrierPierce.cooldown || 5.0) : 999,
+        dorisReadyAt: ignSet.bonus4p?.backBarrierPulse ? (ignSet.bonus4p.backBarrierPulse.cooldown || 5.0) : 999,
         rafflesiaReadyAt: 0,
         bariShield75Done: false,
         bariHeal50Done: false,
@@ -1192,7 +1194,16 @@
             }
           }
           if (removedShieldBuff) u.statsDirty = true;
-          if (hadDoris) drainBossEnergy(u, 300);
+          if (hadDoris) {
+            drainBossEnergy(u, 300);
+            if (units.some(x => x.alive && x.row === "BACK" && x.ignSet.id === "doris" && x.ignSet.soulLv >= 30)) {
+              for (const ally of units) {
+                if (ally.alive && ally.row === "BACK") {
+                  addBuff(ally, "doris_break_30", tCurrent + 8.0, { attackHaste: 20 });
+                }
+              }
+            }
+          }
         }
       }
       if (dmg <= 0) return;
@@ -1562,6 +1573,16 @@
             }
             addBossDebuff("capelinel_boss", t + cp.duration, cp.bossStats);
             u.capelinelReadyAt = t + cp.cooldown;
+          }
+          if (u.ignSet.bonus4p?.backBarrierPulse && u.row === "BACK" && t >= u.dorisReadyAt) {
+            const bp = u.ignSet.bonus4p.backBarrierPulse;
+            for (const ally of units) {
+              if (ally.alive && ally.row === "BACK") {
+                ally.shieldHp += Math.round(uStats.attack * bp.shieldAtkRate);
+                addBuff(ally, "doris_back", t + bp.duration, bp.stats);
+              }
+            }
+            u.dorisReadyAt = t + (bp.cooldown || 5.0);
           }
 
           if (ult.selfInvincibleDuration) u.invincibleUntil = Math.max(u.invincibleUntil, t + ult.selfInvincibleDuration);

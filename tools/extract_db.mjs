@@ -1592,18 +1592,18 @@ const IGNITION_EFFECTS = {
     }
   },
   doris: {
-    id: "doris", name: "Doris (4p · Ligne Arrière +40 Vélocité)", roleTag: "Support Vélocité BACK", category: "support",
+    id: "doris", name: "Doris (4p · Ligne Arrière +40 Vit. Attaque / +20 Vélo)", roleTag: "Support Vitesse BACK", category: "support",
     uniqueAura: true, backRowOnly: true,
-    summary: "2p: +20 Vélocité (Âme 15: +30) | 4p: Bouclier Ligne Arrière (10s) donnant +40 Vélocité (non-cumulable).",
+    summary: "2p: +20 Vélocité (Âme 15: +30) | 4p: Bouclier Ligne Arrière (10s) donnant +40 Vitesse d'Attaque (+20 Vélocité à Âme 30, non-cumulable).",
     bonus2p: { haste: 20 },
     soulBonus2p: { haste: 30 },
     bonus4p: {
       backRowOnly: true, uniqueAura: true,
-      backBarrierPulse: { duration: 10.0, shieldAtkRate: 8.0, enemyEnergyDrainOnBreak: 300, stats: { haste: 40 } }
+      backBarrierPulse: { cooldown: 5.0, duration: 10.0, shieldAtkRate: 8.0, enemyEnergyDrainOnBreak: 300, stats: { attackHaste: 40 } }
     },
     soulBonus4p: {
       backRowOnly: true, uniqueAura: true,
-      backBarrierPulse: { duration: 10.0, shieldAtkRate: 8.0, enemyEnergyDrainOnBreak: 300, stats: { haste: 40 } }
+      backBarrierPulse: { cooldown: 5.0, duration: 10.0, shieldAtkRate: 8.0, enemyEnergyDrainOnBreak: 300, stats: { attackHaste: 40, haste: 20 } }
     }
   },
   el: {
@@ -1872,7 +1872,7 @@ function main() {
     BOSS_ENERGY_DAMAGE: bcMap.BossEnergy_Damage || 5,
     HASTE_RATING_DIV: bcMap.HasteRating || 100,
     HASTE_MIN: 0.40,
-    HASTE_MAX: 2.50,
+    HASTE_MAX: 6.0,
     ACCURACY_CORRECT_A: bcMap.Accuracy_CorrectA || 350,
     ACCURACY_CORRECT_B: bcMap.Accuracy_CorrectB || 470,
     ACCURACY_CORRECT_C: bcMap.Accuracy_CorrectC || 0.15,
@@ -2147,6 +2147,7 @@ function main() {
       name: `Zigena — ${FACTION_LABELS[fKey]}`,
       mode: "Boss Hebdomadaire d'Alliance (Zigena)",
       deckCount: 1,
+      frontCount: 3,
       allowedFactions: [fKey],
       bossFaction: "Neutral",
       baseSlotLevel: 1, // Lv 1 + (sec-1)*10 => sec 131 (>=10T) = Lv 1301 (exact match IG!)
@@ -2188,11 +2189,13 @@ function main() {
     const bBase = getBossBase(tr ? tr._enemy2Id : "7006");
     const gKey = loadGroup(`brr_${r._damageSectionGroupID}`, "bossraid_rank_damagedefine", "_damageSectionGroupID", r._damageSectionGroupID);
     const idSlug = (brrNames[r._unique_key] || r._desc).toLowerCase().replace(/[^a-z0-9]+/g, "_");
+    const frontCount = String(r._positionData || "").includes("POSITION_BOSSRAID_3") ? 1 : 3;
     BOSSES.push({
       id: `brr_${idSlug}`,
       name: `${brrNames[r._unique_key] || r._desc} (Labo / Classement)`,
       mode: "Laboratoire Souterrain (Boss Raid Rank)",
       deckCount: tids.length || 2,
+      frontCount,
       allowedFactions: null,
       bossFaction: bBase.faction,
       baseSlotLevel: 2,
@@ -2238,6 +2241,7 @@ function main() {
       name: ucNames[r._unique_key] || `Expédition Boss #${r._unique_key}`,
       mode: "Expédition d'Alliance (Union Conquest)",
       deckCount: 1,
+      frontCount: 3,
       allowedFactions: null,
       bossFaction: bBase.faction,
       baseSlotLevel: 2,
@@ -2277,6 +2281,7 @@ function main() {
       name: `Administrateur (Sanctuaire Diff. ${r.diff})`,
       mode: "Sanctuaire (Sanctuary Boss)",
       deckCount: r.diff || 1,
+      frontCount: 3,
       allowedFactions: null,
       bossFaction: bBase.faction,
       baseSlotLevel: 400,
@@ -2317,6 +2322,7 @@ function main() {
       name: gigaNames[r._unique_key] || r._desc,
       mode: "Giga Boss (Événement)",
       deckCount: r._deckcount || 2,
+      frontCount: 3,
       allowedFactions: null,
       bossFaction: bBase.faction,
       baseSlotLevel: 2,
