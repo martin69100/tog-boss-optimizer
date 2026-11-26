@@ -1,7 +1,7 @@
 {
   "profileId": "lune",
-  "displayName": "Lune",
-  "updatedAt": "2026-11-26T21:43:27.872Z",
+  "displayName": "Lune (Zénith)",
+  "updatedAt": "2026-11-26T22:00:09.997Z",
   "shinsuLinkLevels": [
     1765,
     1747,
@@ -9,16 +9,16 @@
     1747,
     1747
   ],
-  "shinsuLevel": 1747,
+  "shinsuLevel": 2321,
   "shinsuSlotLevels": [
-    1765,
-    1747,
-    1747,
-    1747,
-    1747
+    2339,
+    2321,
+    2321,
+    2321,
+    2321
   ],
   "highLinkBonus": 18,
-  "shinsuCoreLevel": 65,
+  "shinsuCoreLevel": 27,
   "excludeCollab": true,
   "allianceBuffLv": 10,
   "iwSoulLevels": {
@@ -157,7 +157,7 @@
       "ee": 40,
       "rev": 6,
       "transPve": 1,
-      "transBoss": 1
+      "transBoss": 0
     },
     "2": {
       "owned": true,
@@ -165,7 +165,7 @@
       "ee": 40,
       "rev": 6,
       "transPve": 1,
-      "transBoss": 1
+      "transBoss": 0
     },
     "3": {
       "owned": true,
@@ -173,7 +173,7 @@
       "ee": 40,
       "rev": 6,
       "transPve": 1,
-      "transBoss": 1
+      "transBoss": 0
     },
     "4": {
       "owned": true,
@@ -181,7 +181,7 @@
       "ee": 40,
       "rev": 6,
       "transPve": 1,
-      "transBoss": 1
+      "transBoss": 0
     },
     "5": {
       "owned": true,
@@ -189,7 +189,7 @@
       "ee": 40,
       "rev": 6,
       "transPve": 1,
-      "transBoss": 1
+      "transBoss": 0
     },
     "6": {
       "owned": true,
@@ -197,7 +197,7 @@
       "ee": 40,
       "rev": 6,
       "transPve": 1,
-      "transBoss": 1
+      "transBoss": 0
     },
     "7": {
       "owned": true,
@@ -205,7 +205,7 @@
       "ee": 40,
       "rev": 6,
       "transPve": 1,
-      "transBoss": 1
+      "transBoss": 0
     },
     "8": {
       "owned": true,
@@ -213,7 +213,7 @@
       "ee": 40,
       "rev": 6,
       "transPve": 1,
-      "transBoss": 1
+      "transBoss": 0
     },
     "9": {
       "owned": true,
@@ -221,7 +221,7 @@
       "ee": 40,
       "rev": 6,
       "transPve": 1,
-      "transBoss": 1
+      "transBoss": 0
     },
     "10": {
       "owned": true,
@@ -229,7 +229,7 @@
       "ee": 40,
       "rev": 6,
       "transPve": 1,
-      "transBoss": 1
+      "transBoss": 0
     },
     "11": {
       "owned": true,
@@ -237,7 +237,7 @@
       "ee": 40,
       "rev": 6,
       "transPve": 1,
-      "transBoss": 1
+      "transBoss": 0
     },
     "12": {
       "owned": true,
@@ -245,7 +245,7 @@
       "ee": 40,
       "rev": 6,
       "transPve": 1,
-      "transBoss": 1
+      "transBoss": 0
     },
     "13": {
       "owned": true,
@@ -253,7 +253,7 @@
       "ee": 40,
       "rev": 6,
       "transPve": 1,
-      "transBoss": 1
+      "transBoss": 0
     },
     "14": {
       "owned": true,
@@ -261,7 +261,7 @@
       "ee": 40,
       "rev": 6,
       "transPve": 1,
-      "transBoss": 1
+      "transBoss": 0
     },
     "15": {
       "owned": true,
@@ -269,7 +269,7 @@
       "ee": 40,
       "rev": 6,
       "transPve": 1,
-      "transBoss": 1
+      "transBoss": 0
     },
     "16": {
       "owned": true,
@@ -277,7 +277,7 @@
       "ee": 40,
       "rev": 6,
       "transPve": 1,
-      "transBoss": 1
+      "transBoss": 0
     },
     "24": {
       "owned": false,
@@ -333,7 +333,7 @@
       "ee": 40,
       "rev": 6,
       "transPve": 1,
-      "transBoss": 1
+      "transBoss": 0
     },
     "34": {
       "owned": true,
@@ -341,7 +341,7 @@
       "ee": 40,
       "rev": 6,
       "transPve": 1,
-      "transBoss": 1
+      "transBoss": 0
     },
     "35": {
       "owned": false,
@@ -365,7 +365,7 @@
       "ee": 40,
       "rev": 6,
       "transPve": 1,
-      "transBoss": 1
+      "transBoss": 0
     },
     "39": {
       "owned": true,
@@ -373,7 +373,7 @@
       "ee": 40,
       "rev": 6,
       "transPve": 1,
-      "transBoss": 1
+      "transBoss": 0
     },
     "42": {
       "owned": true,
@@ -381,7 +381,7 @@
       "ee": 40,
       "rev": 6,
       "transPve": 1,
-      "transBoss": 1
+      "transBoss": 0
     },
     "43": {
       "owned": true,
@@ -389,7 +389,7 @@
       "ee": 40,
       "rev": 6,
       "transPve": 1,
-      "transBoss": 1
+      "transBoss": 0
     },
     "49": {
       "owned": true,
@@ -397,7 +397,7 @@
       "ee": 40,
       "rev": 6,
       "transPve": 1,
-      "transBoss": 1
+      "transBoss": 0
     },
     "50": {
       "owned": true,
@@ -405,7 +405,7 @@
       "ee": 40,
       "rev": 6,
       "transPve": 1,
-      "transBoss": 1
+      "transBoss": 0
     },
     "51": {
       "owned": true,
@@ -413,14 +413,14 @@
       "ee": 40,
       "rev": 8,
       "transPve": 1,
-      "transBoss": 1
+      "transBoss": 0
     },
     "52": {
       "owned": true,
       "lb": 21,
       "ee": 40,
       "rev": 8,
-      "transPve": 1,
+      "transPve": 10,
       "transBoss": 1
     },
     "53": {
@@ -429,7 +429,7 @@
       "ee": 40,
       "rev": 6,
       "transPve": 1,
-      "transBoss": 1
+      "transBoss": 0
     },
     "101": {
       "owned": true,
@@ -437,7 +437,7 @@
       "ee": 40,
       "rev": 6,
       "transPve": 1,
-      "transBoss": 1
+      "transBoss": 0
     },
     "102": {
       "owned": true,
@@ -445,7 +445,7 @@
       "ee": 40,
       "rev": 6,
       "transPve": 1,
-      "transBoss": 1
+      "transBoss": 0
     },
     "104": {
       "owned": true,
@@ -453,7 +453,7 @@
       "ee": 40,
       "rev": 6,
       "transPve": 1,
-      "transBoss": 1
+      "transBoss": 0
     },
     "105": {
       "owned": true,
@@ -461,7 +461,7 @@
       "ee": 40,
       "rev": 6,
       "transPve": 1,
-      "transBoss": 1
+      "transBoss": 0
     },
     "106": {
       "owned": true,
@@ -469,7 +469,7 @@
       "ee": 40,
       "rev": 6,
       "transPve": 1,
-      "transBoss": 1
+      "transBoss": 0
     },
     "107": {
       "owned": true,
@@ -477,7 +477,7 @@
       "ee": 40,
       "rev": 6,
       "transPve": 1,
-      "transBoss": 1
+      "transBoss": 0
     },
     "108": {
       "owned": true,
@@ -485,7 +485,7 @@
       "ee": 40,
       "rev": 6,
       "transPve": 1,
-      "transBoss": 1
+      "transBoss": 0
     },
     "109": {
       "owned": true,
@@ -493,7 +493,7 @@
       "ee": 40,
       "rev": 6,
       "transPve": 1,
-      "transBoss": 1
+      "transBoss": 0
     },
     "110": {
       "owned": true,
@@ -501,7 +501,7 @@
       "ee": 40,
       "rev": 6,
       "transPve": 1,
-      "transBoss": 1
+      "transBoss": 0
     },
     "112": {
       "owned": true,
@@ -509,7 +509,7 @@
       "ee": 40,
       "rev": 6,
       "transPve": 1,
-      "transBoss": 1
+      "transBoss": 0
     },
     "113": {
       "owned": true,
@@ -517,7 +517,7 @@
       "ee": 40,
       "rev": 6,
       "transPve": 1,
-      "transBoss": 1
+      "transBoss": 0
     },
     "114": {
       "owned": true,
@@ -525,7 +525,7 @@
       "ee": 40,
       "rev": 6,
       "transPve": 1,
-      "transBoss": 1
+      "transBoss": 0
     },
     "120": {
       "owned": true,
@@ -533,7 +533,7 @@
       "ee": 40,
       "rev": 6,
       "transPve": 1,
-      "transBoss": 1
+      "transBoss": 0
     },
     "121": {
       "owned": true,
@@ -541,7 +541,7 @@
       "ee": 40,
       "rev": 6,
       "transPve": 1,
-      "transBoss": 1
+      "transBoss": 0
     },
     "125": {
       "owned": true,
@@ -549,7 +549,7 @@
       "ee": 40,
       "rev": 6,
       "transPve": 1,
-      "transBoss": 1
+      "transBoss": 0
     },
     "135": {
       "owned": true,
@@ -557,7 +557,7 @@
       "ee": 40,
       "rev": 6,
       "transPve": 1,
-      "transBoss": 1
+      "transBoss": 0
     },
     "151": {
       "owned": true,
@@ -565,7 +565,7 @@
       "ee": 40,
       "rev": 6,
       "transPve": 1,
-      "transBoss": 1
+      "transBoss": 0
     },
     "159": {
       "owned": true,
@@ -573,7 +573,7 @@
       "ee": 40,
       "rev": 6,
       "transPve": 1,
-      "transBoss": 1
+      "transBoss": 0
     },
     "201": {
       "owned": true,
@@ -589,7 +589,7 @@
       "ee": 40,
       "rev": 6,
       "transPve": 1,
-      "transBoss": 1
+      "transBoss": 0
     },
     "203": {
       "owned": true,
@@ -597,7 +597,7 @@
       "ee": 40,
       "rev": 6,
       "transPve": 1,
-      "transBoss": 1
+      "transBoss": 0
     },
     "205": {
       "owned": true,
@@ -605,7 +605,7 @@
       "ee": 40,
       "rev": 6,
       "transPve": 1,
-      "transBoss": 1
+      "transBoss": 0
     },
     "206": {
       "owned": true,
@@ -613,7 +613,7 @@
       "ee": 40,
       "rev": 6,
       "transPve": 1,
-      "transBoss": 1
+      "transBoss": 0
     },
     "207": {
       "owned": true,
@@ -621,7 +621,7 @@
       "ee": 40,
       "rev": 6,
       "transPve": 1,
-      "transBoss": 1
+      "transBoss": 0
     },
     "208": {
       "owned": true,
@@ -629,7 +629,7 @@
       "ee": 40,
       "rev": 6,
       "transPve": 1,
-      "transBoss": 1
+      "transBoss": 0
     },
     "214": {
       "owned": true,
@@ -637,7 +637,7 @@
       "ee": 40,
       "rev": 6,
       "transPve": 1,
-      "transBoss": 1
+      "transBoss": 0
     },
     "216": {
       "owned": true,
@@ -645,7 +645,7 @@
       "ee": 40,
       "rev": 6,
       "transPve": 1,
-      "transBoss": 1
+      "transBoss": 0
     },
     "217": {
       "owned": true,
@@ -653,7 +653,7 @@
       "ee": 40,
       "rev": 6,
       "transPve": 1,
-      "transBoss": 1
+      "transBoss": 0
     },
     "218": {
       "owned": true,
@@ -661,7 +661,7 @@
       "ee": 40,
       "rev": 6,
       "transPve": 1,
-      "transBoss": 1
+      "transBoss": 0
     },
     "219": {
       "owned": true,
@@ -669,7 +669,7 @@
       "ee": 40,
       "rev": 6,
       "transPve": 1,
-      "transBoss": 1
+      "transBoss": 0
     },
     "220": {
       "owned": true,
@@ -677,7 +677,7 @@
       "ee": 40,
       "rev": 6,
       "transPve": 1,
-      "transBoss": 1
+      "transBoss": 0
     },
     "221": {
       "owned": true,
@@ -685,7 +685,7 @@
       "ee": 40,
       "rev": 6,
       "transPve": 1,
-      "transBoss": 1
+      "transBoss": 0
     },
     "222": {
       "owned": true,
@@ -693,7 +693,7 @@
       "ee": 40,
       "rev": 6,
       "transPve": 1,
-      "transBoss": 1
+      "transBoss": 0
     },
     "223": {
       "owned": true,
@@ -701,7 +701,7 @@
       "ee": 40,
       "rev": 6,
       "transPve": 1,
-      "transBoss": 1
+      "transBoss": 0
     },
     "228": {
       "owned": true,
@@ -709,7 +709,7 @@
       "ee": 40,
       "rev": 6,
       "transPve": 1,
-      "transBoss": 1
+      "transBoss": 0
     },
     "229": {
       "owned": true,
@@ -717,7 +717,7 @@
       "ee": 40,
       "rev": 6,
       "transPve": 1,
-      "transBoss": 1
+      "transBoss": 0
     },
     "230": {
       "owned": true,
@@ -725,7 +725,7 @@
       "ee": 40,
       "rev": 6,
       "transPve": 1,
-      "transBoss": 1
+      "transBoss": 0
     },
     "231": {
       "owned": true,
@@ -733,7 +733,7 @@
       "ee": 40,
       "rev": 6,
       "transPve": 1,
-      "transBoss": 1
+      "transBoss": 0
     },
     "232": {
       "owned": true,
@@ -741,7 +741,7 @@
       "ee": 40,
       "rev": 6,
       "transPve": 1,
-      "transBoss": 1
+      "transBoss": 0
     },
     "233": {
       "owned": true,
@@ -749,7 +749,7 @@
       "ee": 40,
       "rev": 6,
       "transPve": 1,
-      "transBoss": 1
+      "transBoss": 0
     },
     "234": {
       "owned": true,
@@ -757,7 +757,7 @@
       "ee": 40,
       "rev": 6,
       "transPve": 1,
-      "transBoss": 1
+      "transBoss": 0
     },
     "235": {
       "owned": true,
@@ -765,7 +765,7 @@
       "ee": 40,
       "rev": 6,
       "transPve": 1,
-      "transBoss": 1
+      "transBoss": 0
     },
     "241": {
       "owned": true,
@@ -773,7 +773,7 @@
       "ee": 40,
       "rev": 6,
       "transPve": 1,
-      "transBoss": 1
+      "transBoss": 0
     },
     "242": {
       "owned": true,
@@ -781,7 +781,7 @@
       "ee": 40,
       "rev": 6,
       "transPve": 1,
-      "transBoss": 1
+      "transBoss": 0
     },
     "243": {
       "owned": true,
@@ -789,7 +789,7 @@
       "ee": 40,
       "rev": 6,
       "transPve": 1,
-      "transBoss": 1
+      "transBoss": 0
     },
     "244": {
       "owned": true,
@@ -797,7 +797,7 @@
       "ee": 40,
       "rev": 6,
       "transPve": 1,
-      "transBoss": 1
+      "transBoss": 0
     },
     "245": {
       "owned": true,
@@ -805,7 +805,7 @@
       "ee": 40,
       "rev": 6,
       "transPve": 1,
-      "transBoss": 1
+      "transBoss": 0
     },
     "246": {
       "owned": true,
@@ -813,7 +813,7 @@
       "ee": 40,
       "rev": 6,
       "transPve": 1,
-      "transBoss": 1
+      "transBoss": 0
     },
     "247": {
       "owned": true,
@@ -821,7 +821,7 @@
       "ee": 40,
       "rev": 6,
       "transPve": 1,
-      "transBoss": 1
+      "transBoss": 0
     },
     "258": {
       "owned": true,
@@ -829,7 +829,7 @@
       "ee": 40,
       "rev": 6,
       "transPve": 1,
-      "transBoss": 1
+      "transBoss": 0
     },
     "259": {
       "owned": true,
@@ -837,7 +837,7 @@
       "ee": 40,
       "rev": 6,
       "transPve": 1,
-      "transBoss": 1
+      "transBoss": 0
     },
     "260": {
       "owned": true,
@@ -845,7 +845,7 @@
       "ee": 40,
       "rev": 6,
       "transPve": 1,
-      "transBoss": 1
+      "transBoss": 0
     },
     "262": {
       "owned": true,
@@ -853,7 +853,7 @@
       "ee": 40,
       "rev": 6,
       "transPve": 1,
-      "transBoss": 1
+      "transBoss": 0
     },
     "285": {
       "owned": true,
@@ -861,7 +861,7 @@
       "ee": 40,
       "rev": 6,
       "transPve": 1,
-      "transBoss": 1
+      "transBoss": 0
     },
     "299": {
       "owned": true,
@@ -869,7 +869,7 @@
       "ee": 40,
       "rev": 6,
       "transPve": 1,
-      "transBoss": 1
+      "transBoss": 0
     },
     "301": {
       "owned": true,
@@ -877,7 +877,7 @@
       "ee": 40,
       "rev": 6,
       "transPve": 1,
-      "transBoss": 1
+      "transBoss": 0
     },
     "401": {
       "owned": true,
@@ -885,7 +885,7 @@
       "ee": 40,
       "rev": 6,
       "transPve": 1,
-      "transBoss": 1
+      "transBoss": 0
     },
     "402": {
       "owned": true,
@@ -893,7 +893,7 @@
       "ee": 40,
       "rev": 6,
       "transPve": 1,
-      "transBoss": 1
+      "transBoss": 0
     },
     "403": {
       "owned": true,
@@ -901,7 +901,7 @@
       "ee": 40,
       "rev": 6,
       "transPve": 1,
-      "transBoss": 1
+      "transBoss": 0
     },
     "404": {
       "owned": true,
@@ -909,7 +909,7 @@
       "ee": 40,
       "rev": 6,
       "transPve": 1,
-      "transBoss": 1
+      "transBoss": 0
     },
     "405": {
       "owned": true,
@@ -917,7 +917,7 @@
       "ee": 40,
       "rev": 6,
       "transPve": 1,
-      "transBoss": 1
+      "transBoss": 0
     },
     "417": {
       "owned": true,
@@ -925,7 +925,7 @@
       "ee": 40,
       "rev": 6,
       "transPve": 1,
-      "transBoss": 1
+      "transBoss": 0
     },
     "418": {
       "owned": true,
@@ -933,7 +933,7 @@
       "ee": 40,
       "rev": 6,
       "transPve": 1,
-      "transBoss": 1
+      "transBoss": 0
     },
     "420": {
       "owned": true,
@@ -941,7 +941,7 @@
       "ee": 40,
       "rev": 6,
       "transPve": 1,
-      "transBoss": 1
+      "transBoss": 0
     },
     "421": {
       "owned": true,
@@ -949,7 +949,7 @@
       "ee": 40,
       "rev": 6,
       "transPve": 1,
-      "transBoss": 1
+      "transBoss": 0
     },
     "422": {
       "owned": true,
@@ -957,7 +957,7 @@
       "ee": 40,
       "rev": 6,
       "transPve": 1,
-      "transBoss": 1
+      "transBoss": 0
     },
     "423": {
       "owned": true,
@@ -965,7 +965,7 @@
       "ee": 40,
       "rev": 6,
       "transPve": 1,
-      "transBoss": 1
+      "transBoss": 0
     },
     "429": {
       "owned": true,
@@ -973,7 +973,7 @@
       "ee": 40,
       "rev": 6,
       "transPve": 1,
-      "transBoss": 1
+      "transBoss": 0
     },
     "430": {
       "owned": true,
@@ -981,7 +981,7 @@
       "ee": 40,
       "rev": 6,
       "transPve": 1,
-      "transBoss": 1
+      "transBoss": 0
     },
     "433": {
       "owned": true,
@@ -989,7 +989,7 @@
       "ee": 40,
       "rev": 6,
       "transPve": 1,
-      "transBoss": 1
+      "transBoss": 0
     },
     "434": {
       "owned": true,
@@ -997,7 +997,7 @@
       "ee": 40,
       "rev": 6,
       "transPve": 1,
-      "transBoss": 1
+      "transBoss": 0
     },
     "436": {
       "owned": true,
@@ -1005,7 +1005,7 @@
       "ee": 40,
       "rev": 6,
       "transPve": 1,
-      "transBoss": 1
+      "transBoss": 0
     },
     "437": {
       "owned": true,
@@ -1013,7 +1013,7 @@
       "ee": 40,
       "rev": 6,
       "transPve": 1,
-      "transBoss": 1
+      "transBoss": 0
     },
     "602": {
       "owned": true,
@@ -1021,7 +1021,7 @@
       "ee": 40,
       "rev": 6,
       "transPve": 1,
-      "transBoss": 1
+      "transBoss": 0
     },
     "603": {
       "owned": true,
@@ -1029,7 +1029,7 @@
       "ee": 40,
       "rev": 6,
       "transPve": 1,
-      "transBoss": 1
+      "transBoss": 0
     },
     "604": {
       "owned": true,
@@ -1037,15 +1037,15 @@
       "ee": 40,
       "rev": 6,
       "transPve": 1,
-      "transBoss": 1
+      "transBoss": 0
     },
     "605": {
       "owned": true,
       "lb": 21,
       "ee": 40,
       "rev": 8,
-      "transPve": 1,
-      "transBoss": 1
+      "transPve": 10,
+      "transBoss": 0
     },
     "606": {
       "owned": true,
@@ -1053,7 +1053,7 @@
       "ee": 40,
       "rev": 6,
       "transPve": 1,
-      "transBoss": 1
+      "transBoss": 0
     },
     "607": {
       "owned": true,
@@ -1061,7 +1061,7 @@
       "ee": 40,
       "rev": 6,
       "transPve": 1,
-      "transBoss": 1
+      "transBoss": 0
     },
     "608": {
       "owned": false,
@@ -1101,7 +1101,7 @@
       "ee": 40,
       "rev": 6,
       "transPve": 1,
-      "transBoss": 1
+      "transBoss": 0
     },
     "613": {
       "owned": true,
@@ -1109,7 +1109,7 @@
       "ee": 40,
       "rev": 6,
       "transPve": 1,
-      "transBoss": 1
+      "transBoss": 0
     },
     "614": {
       "owned": true,
@@ -1117,7 +1117,7 @@
       "ee": 40,
       "rev": 6,
       "transPve": 1,
-      "transBoss": 1
+      "transBoss": 0
     },
     "615": {
       "owned": true,
@@ -1125,7 +1125,7 @@
       "ee": 40,
       "rev": 6,
       "transPve": 1,
-      "transBoss": 1
+      "transBoss": 0
     },
     "616": {
       "owned": true,
@@ -1133,7 +1133,7 @@
       "ee": 40,
       "rev": 6,
       "transPve": 1,
-      "transBoss": 1
+      "transBoss": 0
     },
     "617": {
       "owned": true,
@@ -1141,7 +1141,7 @@
       "ee": 40,
       "rev": 6,
       "transPve": 1,
-      "transBoss": 1
+      "transBoss": 0
     },
     "618": {
       "owned": true,
@@ -1149,7 +1149,7 @@
       "ee": 40,
       "rev": 8,
       "transPve": 1,
-      "transBoss": 1
+      "transBoss": 0
     },
     "620": {
       "owned": true,
@@ -1157,7 +1157,7 @@
       "ee": 40,
       "rev": 6,
       "transPve": 1,
-      "transBoss": 1
+      "transBoss": 0
     },
     "621": {
       "owned": true,
@@ -1165,7 +1165,7 @@
       "ee": 40,
       "rev": 6,
       "transPve": 1,
-      "transBoss": 1
+      "transBoss": 0
     },
     "622": {
       "owned": true,
@@ -1173,7 +1173,7 @@
       "ee": 40,
       "rev": 6,
       "transPve": 1,
-      "transBoss": 1
+      "transBoss": 0
     },
     "623": {
       "owned": true,
@@ -1181,7 +1181,7 @@
       "ee": 40,
       "rev": 6,
       "transPve": 1,
-      "transBoss": 1
+      "transBoss": 0
     },
     "624": {
       "owned": true,
@@ -1189,7 +1189,7 @@
       "ee": 40,
       "rev": 6,
       "transPve": 1,
-      "transBoss": 1
+      "transBoss": 0
     },
     "625": {
       "owned": true,
@@ -1197,7 +1197,7 @@
       "ee": 40,
       "rev": 6,
       "transPve": 1,
-      "transBoss": 1
+      "transBoss": 0
     },
     "626": {
       "owned": true,
@@ -1205,7 +1205,7 @@
       "ee": 40,
       "rev": 8,
       "transPve": 1,
-      "transBoss": 1
+      "transBoss": 0
     },
     "627": {
       "owned": true,
@@ -1213,7 +1213,7 @@
       "ee": 40,
       "rev": 6,
       "transPve": 1,
-      "transBoss": 1
+      "transBoss": 0
     },
     "629": {
       "owned": true,
@@ -1221,7 +1221,7 @@
       "ee": 40,
       "rev": 6,
       "transPve": 1,
-      "transBoss": 1
+      "transBoss": 0
     },
     "630": {
       "owned": true,
@@ -1229,7 +1229,7 @@
       "ee": 40,
       "rev": 6,
       "transPve": 1,
-      "transBoss": 1
+      "transBoss": 0
     },
     "631": {
       "owned": true,
@@ -1237,7 +1237,7 @@
       "ee": 40,
       "rev": 6,
       "transPve": 1,
-      "transBoss": 1
+      "transBoss": 0
     },
     "633": {
       "owned": true,
@@ -1245,7 +1245,7 @@
       "ee": 40,
       "rev": 6,
       "transPve": 1,
-      "transBoss": 1
+      "transBoss": 0
     },
     "635": {
       "owned": true,
@@ -1253,7 +1253,7 @@
       "ee": 40,
       "rev": 6,
       "transPve": 1,
-      "transBoss": 1
+      "transBoss": 0
     },
     "636": {
       "owned": true,
@@ -1261,7 +1261,7 @@
       "ee": 40,
       "rev": 6,
       "transPve": 1,
-      "transBoss": 1
+      "transBoss": 0
     },
     "638": {
       "owned": true,
@@ -1269,7 +1269,7 @@
       "ee": 40,
       "rev": 6,
       "transPve": 1,
-      "transBoss": 1
+      "transBoss": 0
     },
     "639": {
       "owned": true,
@@ -1277,7 +1277,7 @@
       "ee": 40,
       "rev": 6,
       "transPve": 1,
-      "transBoss": 1
+      "transBoss": 0
     },
     "641": {
       "owned": true,
@@ -1285,7 +1285,7 @@
       "ee": 40,
       "rev": 6,
       "transPve": 1,
-      "transBoss": 1
+      "transBoss": 0
     },
     "642": {
       "owned": true,
@@ -1301,7 +1301,7 @@
       "ee": 40,
       "rev": 6,
       "transPve": 1,
-      "transBoss": 1
+      "transBoss": 0
     },
     "645": {
       "owned": true,
@@ -1309,7 +1309,7 @@
       "ee": 40,
       "rev": 6,
       "transPve": 1,
-      "transBoss": 1
+      "transBoss": 0
     },
     "647": {
       "owned": true,
@@ -1317,7 +1317,7 @@
       "ee": 40,
       "rev": 6,
       "transPve": 1,
-      "transBoss": 1
+      "transBoss": 0
     },
     "648": {
       "owned": true,
@@ -1333,7 +1333,7 @@
       "ee": 40,
       "rev": 6,
       "transPve": 1,
-      "transBoss": 1
+      "transBoss": 0
     },
     "651": {
       "owned": true,
@@ -1341,7 +1341,7 @@
       "ee": 40,
       "rev": 6,
       "transPve": 1,
-      "transBoss": 1
+      "transBoss": 0
     },
     "652": {
       "owned": true,
@@ -1349,7 +1349,7 @@
       "ee": 40,
       "rev": 6,
       "transPve": 1,
-      "transBoss": 1
+      "transBoss": 0
     },
     "653": {
       "owned": true,
@@ -1357,7 +1357,7 @@
       "ee": 40,
       "rev": 6,
       "transPve": 1,
-      "transBoss": 1
+      "transBoss": 0
     },
     "654": {
       "owned": true,
@@ -1365,7 +1365,7 @@
       "ee": 40,
       "rev": 6,
       "transPve": 1,
-      "transBoss": 1
+      "transBoss": 0
     },
     "656": {
       "owned": true,
@@ -1373,7 +1373,7 @@
       "ee": 40,
       "rev": 6,
       "transPve": 1,
-      "transBoss": 1
+      "transBoss": 0
     },
     "3000": {
       "owned": true,
@@ -1381,7 +1381,7 @@
       "ee": 40,
       "rev": 6,
       "transPve": 1,
-      "transBoss": 1
+      "transBoss": 0
     },
     "3001": {
       "owned": true,
@@ -1389,7 +1389,7 @@
       "ee": 40,
       "rev": 6,
       "transPve": 1,
-      "transBoss": 1
+      "transBoss": 0
     },
     "3003": {
       "owned": true,
@@ -1397,7 +1397,7 @@
       "ee": 40,
       "rev": 6,
       "transPve": 1,
-      "transBoss": 1
+      "transBoss": 0
     },
     "3004": {
       "owned": true,
@@ -1405,7 +1405,7 @@
       "ee": 40,
       "rev": 6,
       "transPve": 1,
-      "transBoss": 1
+      "transBoss": 0
     },
     "3005": {
       "owned": true,
@@ -1413,7 +1413,7 @@
       "ee": 40,
       "rev": 6,
       "transPve": 1,
-      "transBoss": 1
+      "transBoss": 0
     },
     "3006": {
       "owned": true,
@@ -1421,7 +1421,7 @@
       "ee": 40,
       "rev": 6,
       "transPve": 1,
-      "transBoss": 1
+      "transBoss": 0
     },
     "3007": {
       "owned": true,
@@ -1429,7 +1429,7 @@
       "ee": 40,
       "rev": 6,
       "transPve": 1,
-      "transBoss": 1
+      "transBoss": 0
     },
     "3008": {
       "owned": true,
@@ -1437,7 +1437,7 @@
       "ee": 40,
       "rev": 6,
       "transPve": 1,
-      "transBoss": 1
+      "transBoss": 0
     },
     "3010": {
       "owned": true,
@@ -1445,7 +1445,8 @@
       "ee": 40,
       "rev": 6,
       "transPve": 1,
-      "transBoss": 1
+      "transBoss": 0
     }
-  }
+  },
+  "shinsuBlessingLevel": 574
 }
