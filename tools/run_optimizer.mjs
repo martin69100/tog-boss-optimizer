@@ -202,7 +202,7 @@ if (teamCount >= 2) {
   console.log(`================================================================================`);
   console.log(`BOSS : ${boss.name} (${boss.mode}) — MODE 2 ÉQUIPES DISJOINTES`);
   console.log(`Restriction : ${allowedLabel} | Collab : ${collabLabel} | Héros éligibles : ${result.eligibleCount} | Vaisseau Auto : ${args.autoAirship ? "OUI" : "NON"}`);
-  console.log(`Progression : Shinsu ${shinsuSummary} | Noyau ${globalProg.shinsuCoreLevel}/7 | ${iwLabel}`);
+  console.log(`Progression : Shinsu ${shinsuSummary} | Noyau ${globalProg.shinsuCoreLevel} | ${iwLabel}`);
   console.log(`Calcul terminé en ${result.elapsedMs} ms`);
   console.log(`================================================================================\n`);
 
@@ -229,7 +229,7 @@ if (teamCount >= 2) {
   console.log(`BOSS : ${boss.name} (${boss.mode})`);
   console.log(`Restriction : ${allowedLabel} | Collab : ${collabLabel} | Héros éligibles : ${result.eligibleCount} | Vaisseau Auto : ${args.autoAirship ? "OUI" : "NON"}`);
   if (accountData) {
-    console.log(`Compte : ${shinsuSummary} | Noyau ${globalProg.shinsuCoreLevel}/7 | ${iwLabel} | Buffs Alliance ${globalProg.allianceBuffLv}/10`);
+    console.log(`Compte : ${shinsuSummary} | Noyau ${globalProg.shinsuCoreLevel} | ${iwLabel} | Buffs Alliance ${globalProg.allianceBuffLv}/10`);
   } else {
     console.log(`Progression : Shinsu Lv.${globalProg.shinsuLevel} | High Link : ${globalProg.highLinkBonus > 0 ? `+${globalProg.highLinkBonus}` : "Aucun"} | ${iwLabel} | LB ${args.lb} | EE +${args.ee} | Rév.${args.rev} | Buffs Alliance ${globalProg.allianceBuffLv}/10`);
   }

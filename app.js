@@ -80,7 +80,7 @@
     const slots = (loadedAccount.shinsuSlotLevels || []).join("/");
     const souls = Object.entries(loadedAccount.iwSoulLevels || {}).filter(([, v]) => v > 0).map(([k, v]) => `${k} ${v}`).join(", ") || "0";
     const ships = Object.entries(loadedAccount.airships || {}).filter(([, s]) => s.owned && s.level > 0).map(([k, s]) => `${k} ${s.level} (${s.skillLv}/5)`).join(", ");
-    el.textContent = `[${label}] ${useIt ? "ACTIF" : "INACTIF"} · Liens ${slots || loadedAccount.shinsuLevel} · Noyau ${loadedAccount.shinsuCoreLevel || 0}/7 · Âmes: ${souls}${ships ? ` · Vaisseaux: ${ships}` : ""}`;
+    el.textContent = `[${label}] ${useIt ? "ACTIF" : "INACTIF"} · Liens ${slots || loadedAccount.shinsuLevel} · Noyau ${loadedAccount.shinsuCoreLevel || 0} · Âmes: ${souls}${ships ? ` · Vaisseaux: ${ships}` : ""}`;
   }
 
   function applyAccountToForm() {
