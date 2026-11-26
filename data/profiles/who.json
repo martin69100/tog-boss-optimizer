@@ -1,7 +1,7 @@
 {
   "profileId": "who",
-  "displayName": "Who",
-  "updatedAt": "2026-11-26T20:27:00.630Z",
+  "displayName": "Who (Zénith)",
+  "updatedAt": "2026-11-26T20:40:16.450Z",
   "shinsuLinkLevels": [
     1880,
     1860,
@@ -19,7 +19,7 @@
     2544
   ],
   "highLinkBonus": 20,
-  "shinsuCoreLevel": 9,
+  "shinsuCoreLevel": 47,
   "excludeCollab": false,
   "allianceBuffLv": 10,
   "iwSoulLevels": {
@@ -116,7 +116,7 @@
     },
     "vigilantia": {
       "owned": true,
-      "level": 0,
+      "level": 28,
       "skillLv": 5
     },
     "aquila_nova": {
@@ -1036,7 +1036,7 @@
       "lb": 21,
       "ee": 40,
       "rev": 8,
-      "transPve": 1,
+      "transPve": 10,
       "transBoss": 1
     },
     "606": {

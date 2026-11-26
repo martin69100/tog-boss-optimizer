@@ -1,14 +1,14 @@
 {
   "profileId": "martin",
   "displayName": "Martin (HorizonFR)",
-  "updatedAt": "2026-11-25T08:15:00.000Z",
-  "shinsuLevel": 1600,
+  "updatedAt": "2026-11-26T20:40:16.450Z",
+  "shinsuLevel": 1820,
   "shinsuSlotLevels": [
-    1620,
-    1620,
-    1611,
-    1600,
-    1600
+    1840,
+    1840,
+    1840,
+    1821,
+    1820
   ],
   "highLinkBonus": 20,
   "shinsuCoreLevel": 7,
@@ -1298,8 +1298,8 @@
     "3005": {
       "owned": true,
       "lb": 21,
-      "ee": 0,
-      "rev": 0,
+      "ee": 35,
+      "rev": 5,
       "transPve": 0,
       "transBoss": 0
     },
@@ -1335,5 +1335,13 @@
       "transPve": 0,
       "transBoss": 0
     }
-  }
+  },
+  "shinsuLinkLevels": [
+    1620,
+    1620,
+    1620,
+    1601,
+    1600
+  ],
+  "shinsuBlessingLevel": 220
 }
