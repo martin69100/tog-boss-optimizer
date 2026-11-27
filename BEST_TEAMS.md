@@ -18,20 +18,19 @@
 ## 1. Martin (`Martin · HorizonFR`)
 
 ### 1.1 Anguille Électrique (`uc_boss_2` · `3 FRONT / 2 BACK` · 0 Dispel requis)
-- **Compo #1 Hypercarry 4 Supports (Simulé)** : **`360.9 T`** avec `Albelda` *(Palier 144 · Domination `10 vs 24`)* · Alternatives BACK : **`Garam XSR+`** (`341.4 T` · Dom `10`, +survie) ou **`Khun Royale Elliot`** (`338.8 T` · vrai **Core Boss +1 → Dom `11`**)
-- **Dernier record IG** : **`172.974 T`** *(Boss Niv. `1415` · `11 contre 22` — bridé car Ha Yuri `+800% ATQ` a volé les buffs Highest ATK de Narae + absence du Brise-Barrière de Traumerei)*
-- **Vaisseau** : **Aquila Nova (`Niv. 20 · Comp. 4/5`)**
+- **Record IG actuel** : **`172.974 T`** *(1 CàC sans Traumerei · `11 vs 22` — contre `163.955 T` en 5× Distance et `136.298 T` avec Traumerei où les AoE boss montent ×4.1 à `9,633 J` et tuent Endorsi)*
+- **Compo recommandée à valider IG (`241.2 T` simulé avec `Albelda` · `215.3 T` avec `Soo-oh` · `208.1 T` avec `Garam XSR+`)** — Vaisseau : **Aquila Nova (`Niv. 20 · Comp. 4/5`)**
 
 | Pos. | Shinsu | Personnage | Set IW (+ Âme unique) | Stats IW Slot 4 / Slot 5 | Rôle clé |
 | :---: | :---: | :--- | :--- | :--- | :--- |
-| **FRONT** | **HL `1840`** | **[Treasure Hunter] Narae Seonwoo** *(Rouge)* | **Rafflesia** `+20` | Rés. Mag. / Rés. Phys. | Batterie EP + `+1 680% ATQ` & `+216%` Perçage 100% verrouillés sur Endorsi |
-| **FRONT** | `1824` | **[Family Head] Traumerei** *(EX Vert)* | **Runda (Âme 23)** | Rés. Mag. / Rés. Phys. | **Brise-Barrière** + **`+150% Perçage Magique`** + `-100 Vélocité` Boss + boucliers Runda 23 |
-| **FRONT** | **HL `1840`** | **[Flame of Yeon] Khun** *(Violet)* | **Rafflesia** `+20` | Rés. Mag. / Rés. Phys. | Copie d'ATQ `+300%` + `+120%` Perçage Mag. + `-120%` Rés. Mag. + `8s` Immunité CC |
-| **BACK** | `1820` | **[Guide of Spirits] Albelda** *(Jaune)* *(ou `Garam XSR+` / `Khun Royale Elliot TB+1`)* | **Capelinel** `+20` | Rés. Mag. / Rés. Phys. | `-200% DÉF`, `-100% Rés. Mag.`, `-100 Vélocité` + **aura Capelinel BACK** |
-| **BACK** | **HL `1840`** | **[Rebellious Princess] Endorsi** *(Violet)* | **Doris (Âme 30)** | **Dégâts Crit** / **Perçage Mag.** | Seule DPS (`99.9%` DPS — aucun allié ne peut lui voler Narae) |
+| **FRONT** | `1820` | **[One-eyed Wolf] Blarode** *(SSR Bleu · CàC)* | **Rafflesia** `+20` | Rés. Mag. / Rés. Phys. | **Ancre CàC** (`239 G` ATQ < `313 G` Endorsi = **0 vol de Narae**) + `Isolate` (`-DÉF / -Vélocité`) |
+| **FRONT** | `1824` | **[Guide of Spirits] Albelda** *(ou **`Soo-oh EE30`** / **`Garam XSR+`** si Endorsi tombe)* | **Runda (Âme 23)** | Rés. Mag. / Rés. Phys. | Debuffs DÉF/Rés. Mag. *(ou `-80% ATQ Boss` & `-40% Rés. Crit` avec Soo-oh)* + boucliers Runda 23 |
+| **FRONT** | **HL `1840`** | **[Flame of Yeon] Khun** *(Violet)* | **Rafflesia** `+20` | Rés. Mag. / Rés. Phys. | Copie d'ATQ `+300%` + `+120%` Perçage Mag. + `8s` Immunité CC + Sauvetage |
+| **BACK** | **HL `1840`** | **[Rebellious Princess] Endorsi** *(Violet)* | **Doris (Âme 30)** | **Dégâts Crit** / **Perçage Mag.** | Carry principal (`99.9%` DPS) |
+| **BACK** | **HL `1840`** | **[Treasure Hunter] Narae Seonwoo** *(Rouge)* | **Capelinel** `+20` | Rés. Mag. / Rés. Phys. | **Impérativement sur `HL 1840`** — Batterie EP + `+1 680% ATQ` sur Endorsi + **aura Capelinel BACK** |
 
-> [!TIP]
-> **Choix du 5e slot en BACK (`Capelinel +20`)** : **`Albelda`** donne le plafond DPS (`360.9 T`), **`Garam XSR+`** sécurise la survie/EP/Ult Pierce (`341.4 T`), **`Khun Royale Elliot`** monte la Domination à **`11`** (`338.8 T`, `-120` Vélocité Boss, `6s` auto-invincible et `0%` auto-buff ATQ donc zéro vol de Narae), et **`Sophia Tan`** (`312.5 T`, Dom `10`) reste utile uniquement si tu as besoin de ses `5s` d'Invincibilité d'équipe. Si malgré tout un ancre CàC s'avère nécessaire, utilise **`Blarode (1820, Rafflesia défensif) + Traumerei (1824, Runda 23) + Khun (HL 1840)` / `Narae (HL 1840, Capelinel) + Endorsi (HL 1840, Doris 30)`** (`252.3 T` simulé).
+> [!WARNING]
+> **Règle d'or vérifiée IG contre l'Anguille** : **zéro Traumerei** (ses invocations font tourner les AoE du boss sur Endorsi : `9,633 J` subis sur Martin, `66,101 J` sur San) + **Blarode jamais sur un `HL 1840`** et équipé **100% défensif (`Rés. Mag. / Rés. Phys.`, sans `%ATQ`)** pour qu'il reste sous l'ATQ d'Endorsi et ne vole jamais Narae.
 
 ### 1.2 Administrateur du Sanctuaire (`sanctuary_diff_1` · `3 FRONT / 2 BACK` · Dispel 5/5)
 - **Simulé** : **`371.6 T`**
@@ -107,19 +106,16 @@
 | **BACK** | `2544` | **[Golden Carp] Ju** *(SSR)* | **Rafflesia** `+20` *(ou 2e `Capelinel +20`)* | Rés. Mag. / Rés. Phys. | Shred `-80%` Rés. Verte + `+160% ATQ` |
 
 ### 3.2 Anguille Électrique (`uc_boss_2` · `3 FRONT / 2 BACK` · Sans Collab)
-- **Simulé** : **`675.0 E`** *(0 Dispel requis — Endorsi Magique exploite le `+150% Perçage Magique` Rév.6 de Traumerei EX)*
+- **Compo #1 validée IG (arène 3D réelle · zéro Traumerei)** : `Domination 51` *(en simulé pur `Traumerei + Albelda` montait à `675.0 E`, mais fait wipe Endorsi en réel — validé `×2.4` meilleur IG avec Blarode + Khun Flamme)*
 - **Vaisseau** : **Aquila Nova** *(ou **Gloamspire** s'il est plus monté dans son Hangar)*
 
 | Pos. | Shinsu | Personnage | Set IW (+ Âme unique) | Stats IW Slot 4 / Slot 5 | Rôle clé |
 | :---: | :---: | :--- | :--- | :--- | :--- |
-| **FRONT** | `2544` | **[Fortune Teller Witch] Soo-oh** *(Bleu)* | **Rafflesia** `+20` | Rés. Mag. / Rés. Phys. | Poisson Jade (`-Rés. Crit` · *remplaçable par **`[Flame of Yeon] Khun`** à `630.4 E`*) |
-| **FRONT** | `2544` | **[Family Head] Traumerei** *(EX Vert)* | **Runda (Âme 30)** | Rés. Mag. / Rés. Phys. | **`+150% Perçage Magique`** + `+80% ATQ/DÉF` + boucliers Runda 30 |
-| **FRONT** | `2544` | **[Treasure Hunter] Narae Seonwoo** *(Rouge)* | **Rafflesia** `+20` | Rés. Mag. / Rés. Phys. | Batterie EP + `+720% ATQ` & Perçage sur Endorsi |
-| **BACK** | **HL `2564`** | **[Rebellious Princess] Endorsi** *(Violet)* | **Doris (Âme 30)** | **Dégâts Crit** / **Perçage Mag.** | Carry principal (`99.8%` DPS), Haste illimité |
-| **BACK** | `2544` | **[Guide of Spirits] Albelda** *(Jaune)* | **Capelinel (Âme 21)** | Rés. Mag. / Rés. Phys. | Lien d'âme + aura **Capelinel BACK** sur Endorsi |
-
-> [!TIP]
-> **Variante CàC validée IG (meilleure survie BACK en arène 3D)** : remplacer `Traumerei + Albelda` par **`[One-eyed Wolf] Blarode` (FRONT gauche, `Runda 30`, ancre CàC + `Isolate` `-95` Vélocité)** + **`[Flame of Yeon] Khun` (FRONT droite, `8s` Immunité CC + `+300%` ATQ)**, et passer **`Narae` en BACK avec `Capelinel 21`** auprès d'Endorsi (`Domination 51`). Sur le terrain réel, cette version évite les AoE/stuns du boss sur Endorsi (`×2.4` constaté sur le compte de San).
+| **FRONT** | `2544` | **[One-eyed Wolf] Blarode** *(SSR Bleu · CàC)* | **Runda (Âme 30)** | Rés. Mag. / Rés. Phys. | **Ancre CàC** (fixe l'orientation du boss) + `Isolate` (`-95` Vélocité en Rév. 6) |
+| **FRONT** | `2544` | **[Fortune Teller Witch] Soo-oh** *(Bleu)* | **Rafflesia** `+20` | Rés. Mag. / Rés. Phys. | Poisson Jade (`+400%` Coef Auto, `-40% Rés. Crit`) + `-80% ATQ Boss` |
+| **FRONT** | `2544` | **[Flame of Yeon] Khun** *(Violet)* | **Rafflesia** `+20` | Rés. Mag. / Rés. Phys. | Copie d'ATQ `+300%` + `+120%` Perçage Mag. + `8s` Immunité CC + Sauvetage |
+| **BACK** | **HL `2564`** | **[Rebellious Princess] Endorsi** *(Violet)* | **Doris (Âme 30)** | **Dégâts Crit** / **Perçage Mag.** | Carry principal (`99.8%` DPS), `0` dégât / `0` stun |
+| **BACK** | `2544` | **[Treasure Hunter] Narae Seonwoo** *(Rouge)* | **Capelinel (Âme 21)** | Rés. Mag. / Rés. Phys. | Batterie EP + `+1 680% ATQ` & Perçage + **aura Capelinel BACK** |
 
 ---
 
