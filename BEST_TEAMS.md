@@ -18,16 +18,20 @@
 ## 1. Martin (`Martin · HorizonFR`)
 
 ### 1.1 Anguille Électrique (`uc_boss_2` · `3 FRONT / 2 BACK` · 0 Dispel requis)
-- **Validé IG** : **`163.955 T`** *(Palier 142 · Boss Niv. `1413` · Domination `10 vs 22`)*
+- **Nouvelle compo CàC (Simulé)** : **`293.0 T`** en `Runda 23` / **`301.1 T`** en `Rafflesia` *(Palier 143-144 · Domination `11 vs 23/24` — +40% vs l'ancienne compo `163.955 T` IG en `5× FAR`)*
+- **Ancien record IG** : **`163.955 T`** *(5× Distance : Khun / Narae / Garam + Endorsi / Albelda · Domination `10 vs 22`)*
 - **Vaisseau** : **Aquila Nova (`Niv. 20 · Comp. 4/5`)**
 
 | Pos. | Shinsu | Personnage | Set IW (+ Âme unique) | Stats IW Slot 4 / Slot 5 | Rôle clé |
 | :---: | :---: | :--- | :--- | :--- | :--- |
-| **FRONT** | **HL `1840`** | **[Flame of Yeon] Khun** *(Violet)* | **Capelinel** `+20` | Rés. Mag. / Rés. Phys. | Tanking FRONT + `+300%` copie d'ATQ & shred Rés. Magique |
-| **FRONT** | **HL `1840`** | **[Treasure Hunter] Narae Seonwoo** *(Rouge)* | **Rafflesia** `+20` | Rés. Mag. / Rés. Phys. | Batterie EP + `+720% ATQ` & Perçage sur Endorsi |
-| **FRONT** | `1821` | **[Princess of Zahard] Garam** *(XSR+ Bleu)* *ou `Soo-oh`* | **Runda (Âme 23)** | Rés. Mag. / Rés. Phys. | Support EP / Perçage Ult + boucliers Runda 23 |
-| **BACK** | **HL `1840`** | **[Rebellious Princess] Endorsi** *(Violet)* | **Doris (Âme 30)** | **Dégâts Crit** / **Perçage Mag.** | Carry principal (`~99%` DPS), Haste illimité |
-| **BACK** | `1820` | **[Guide of Spirits] Albelda** *(Jaune)* | **Rafflesia** `+20` | Rés. Mag. / Rés. Phys. | Lien d'âme + buff ATQ sur Endorsi |
+| **FRONT** | `1820` | **[Thirteen-Month Series] Ha Yuri** *(Rouge · CàC · TransBoss +1)* | **Runda (Âme 23)** *(ou `Rafflesia +20`)* | Rés. Mag. / Rés. Phys. | **Ancre CàC** (sans furtivité) + `10 Hit Barriers` + **`+1` Domination (`11`)** |
+| **FRONT** | `1821` | **[Guide of Spirits] Albelda** *(Jaune)* | **Rafflesia** `+20` | Rés. Mag. / Rés. Phys. | `-200% DÉF`, `-100% Rés. Mag.`, `-100 Vélocité` + réduction CD |
+| **FRONT** | **HL `1840`** | **[Flame of Yeon] Khun** *(Violet)* | **Rafflesia** `+20` | Rés. Mag. / Rés. Phys. | Copie d'ATQ `+300%` + `+120%` Perçage Mag. + `8s` Immunité CC |
+| **BACK** | **HL `1840`** | **[Rebellious Princess] Endorsi** *(Violet)* | **Doris (Âme 30)** | **Dégâts Crit** / **Perçage Mag.** | Carry principal (`99.9%` DPS), `0` dégât subi |
+| **BACK** | **HL `1840`** | **[Treasure Hunter] Narae Seonwoo** *(Rouge)* | **Capelinel** `+20` | Rés. Mag. / Rés. Phys. | Batterie EP + `+720% ATQ` & Perçage + **aura Capelinel BACK** |
+
+> [!WARNING]
+> **Variante CàC `Blarode` (`241.2 T – 260.6 T` simulé · Domination `10`)** : tu peux aussi tester **`[One-eyed Wolf] Blarode` (`LB 21 · EE 35 · Rév. 5`)** à la place de Ha Yuri (grappin `+40 EVA` + `Isolate` `-95` Vélocité en Rév. 6). **Piège critique** : avec `+120% ATQ` d'`Isolate`, Blarode monte à `255 G` d'ATQ contre `267 G` sur Endorsi — mets-lui impérativement un set IW **100% défensif (`Rés. Mag. / Rés. Phys.`, sans sub-stat `%ATQ` ni arme offensive)** pour qu'il ne vole jamais les buffs *Highest ATK* de Narae (`Golden Radiance` / `Treasure`). Si Ha Yuri tombe en `Rafflesia`, laisse-la en **`Runda (Âme 23)`** (`293.0 T`, `0` dégât subi).
 
 ### 1.2 Administrateur du Sanctuaire (`sanctuary_diff_1` · `3 FRONT / 2 BACK` · Dispel 5/5)
 - **Simulé** : **`371.6 T`**
@@ -113,6 +117,9 @@
 | **FRONT** | `2544` | **[Treasure Hunter] Narae Seonwoo** *(Rouge)* | **Rafflesia** `+20` | Rés. Mag. / Rés. Phys. | Batterie EP + `+720% ATQ` & Perçage sur Endorsi |
 | **BACK** | **HL `2564`** | **[Rebellious Princess] Endorsi** *(Violet)* | **Doris (Âme 30)** | **Dégâts Crit** / **Perçage Mag.** | Carry principal (`99.8%` DPS), Haste illimité |
 | **BACK** | `2544` | **[Guide of Spirits] Albelda** *(Jaune)* | **Capelinel (Âme 21)** | Rés. Mag. / Rés. Phys. | Lien d'âme + aura **Capelinel BACK** sur Endorsi |
+
+> [!TIP]
+> **Variante CàC validée IG (meilleure survie BACK en arène 3D)** : remplacer `Traumerei + Albelda` par **`[One-eyed Wolf] Blarode` (FRONT gauche, `Runda 30`, ancre CàC + `Isolate` `-95` Vélocité)** + **`[Flame of Yeon] Khun` (FRONT droite, `8s` Immunité CC + `+300%` ATQ)**, et passer **`Narae` en BACK avec `Capelinel 21`** auprès d'Endorsi (`Domination 51`). Sur le terrain réel, cette version évite les AoE/stuns du boss sur Endorsi (`×2.4` constaté sur le compte de San).
 
 ---
 
