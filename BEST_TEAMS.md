@@ -126,5 +126,28 @@
 
 ## 5. Shew
 
-- **Profil prêt** : Liens `1986 / 1967×4`, Tri-Essence (`85` Vélocité / `400` PRÉ sur FOR/DEX/INT), Âmes `Doris 30 · Runda 16 · Sundance 15 · Bari 8`, Hangar (`Red Death Niv. 25 (4/5)`, `Aquila Nova Niv. 5 (2/5)`), **58 héros** enregistrés (`excludeCollab: true`).
-- *(Section prête : demande-moi un boss pour Shew et je l'ajouterai ici.)*
+- **Profil** : Liens `1986 / 1967×4`, Tri-Essence (`85` Vélocité / `400` PRÉ sur FOR/DEX/INT), Âmes `Doris 30 · Runda 16 · Sundance 15 · Bari 8`, Hangar (`Red Death Niv. 25 (4/5)`, `Aquila Nova Niv. 5 (2/5)`), **58 héros** enregistrés (`excludeCollab: true`).
+
+### 5.1 Zigena — Vert (`uwb_zygaena_land` · `3 FRONT / 2 BACK` · Sans Collab · Dispel 5/5)
+- **Simulé** : **`113.0 T`** *(Palier 141 · Boss Lv. `1401` · Domination `12 vs 21`)*
+- **Vaisseau** : **Red Death (`Niv. 25 · Comp. 4/5`)** *(bat son `Vigilantia Niv. 0` à `103.0 T` grâce au `+85%` stats globales)*
+
+| Pos. | Shinsu | Personnage | Set IW (+ Âme unique) | Stats IW Slot 4 / Slot 5 | Rôle clé |
+| :---: | :---: | :--- | :--- | :--- | :--- |
+| **FRONT** | `1967` | **[Family Head] Traumerei** *(EX)* | **Runda** `+20` | Rés. Mag. / Rés. Phys. | Brise-Barrière + `+80% ATQ/DÉF` + boucliers/Kraken |
+| **FRONT** | `1967` | **[Regular] Lero Ro** *(SSR)* | **Capelinel** `+20` | Rés. Mag. / Rés. Phys. | Aura **Capelinel FRONT** + survie FRONT |
+| **FRONT** | `1967` | **[Silence of Rose] Sachi** *(SSR+)* | **Sundance (Âme 15)** | **Dégâts Crit** / **Perçage Mag.** | Sub-DPS (`16.0%` DPS) + `-150%` DÉF Boss + Haste *(ou `[Healing Flame] Yihwa Yeon` à `111.1 T`)* |
+| **BACK** | **HL `1986`** | **[Family Head] Yirang Yeon** *(EX)* | **Runda (Âme 16)** | **Dégâts Crit** / **Perçage Phys.** | **Carry principal (`74.3%` DPS)** + Purge 5/5 + `-80% DÉF / Rés. Phys.` |
+| **BACK** | `1967` | **[Golden Carp] Ju** *(SSR)* | **Capelinel** `+20` | Rés. Mag. / Rés. Phys. | Shred `-80%` Rés. Verte + `+160% ATQ` + aura **Capelinel BACK** sur Yirang |
+
+### 5.2 Anguille Électrique (`uc_boss_2` · `3 FRONT / 2 BACK` · Sans Collab · 0 Dispel requis)
+- **Simulé** : **`325.8 T`** *(Palier 144 · Boss Lv. `1432` · Domination `12 vs 24`)* — *Yirang Yeon EX `Rév.8` remplace Endorsi `2★`*
+- **Vaisseau** : **Red Death (`Niv. 25 · Comp. 4/5`)**
+
+| Pos. | Shinsu | Personnage | Set IW (+ Âme unique) | Stats IW Slot 4 / Slot 5 | Rôle clé |
+| :---: | :---: | :--- | :--- | :--- | :--- |
+| **FRONT** | `1967` | **[Akrinak] Nen Neya** *(SSR+ Bleu)* | **Capelinel** `+20` | Dégâts Crit / Perçage Phys. | `-80%` DÉF Boss + Perçage Phys *(ou **`[Opera Holder] Repellista` (`LB 21`, Sundance 15)** + `Ha Yura` en plan B survie `320.3 T`)* |
+| **FRONT** | `1967` | **[Noble Swordsman] White** *(SSR+ Jaune)* | **Asura** `+20` | **Dégâts Crit** / **Perçage Phys.** | Sub-DPS (`9.8%` DPS) + Brise-Barrière |
+| **FRONT** | `1967` | **[Golden Carp] Ju** *(SSR Vert)* | **Runda (Âme 16)** | Rés. Mag. / Rés. Phys. | Shred `-80%` Rés. Verte + `+160% ATQ` + boucliers Runda |
+| **BACK** | **HL `1986`** | **[Family Head] Yirang Yeon** *(EX Vert)* | **Doris (Âme 30)** | **Dégâts Crit** / **Perçage Phys.** | **Carry principal (`90.1%` DPS)** |
+| **BACK** | `1967` | **[Treasure Hunter] Narae Seonwoo** *(SSR+ Rouge)* | **Runda** `+20` *(ou `Capelinel +20`)* | Rés. Mag. / Rés. Phys. | Batterie EP + `+720% ATQ` & Perçage sur Yirang |
