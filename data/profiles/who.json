@@ -1,7 +1,7 @@
 {
   "profileId": "who",
   "displayName": "Who (Zénith)",
-  "updatedAt": "2026-11-26T20:40:16.450Z",
+  "updatedAt": "2026-11-27T10:45:02.927Z",
   "shinsuLinkLevels": [
     1880,
     1860,
@@ -20,7 +20,7 @@
   ],
   "highLinkBonus": 20,
   "shinsuCoreLevel": 47,
-  "excludeCollab": false,
+  "excludeCollab": true,
   "allianceBuffLv": 10,
   "iwSoulLevels": {
     "celina": 0,
@@ -272,52 +272,52 @@
       "transBoss": 1
     },
     "24": {
-      "owned": true,
-      "lb": 21,
-      "ee": 40,
-      "rev": 6,
-      "transPve": 1,
-      "transBoss": 1
+      "owned": false,
+      "lb": 0,
+      "ee": 0,
+      "rev": 0,
+      "transPve": 0,
+      "transBoss": 0
     },
     "25": {
-      "owned": true,
-      "lb": 21,
-      "ee": 40,
-      "rev": 6,
-      "transPve": 1,
-      "transBoss": 1
+      "owned": false,
+      "lb": 0,
+      "ee": 0,
+      "rev": 0,
+      "transPve": 0,
+      "transBoss": 0
     },
     "26": {
-      "owned": true,
-      "lb": 21,
-      "ee": 40,
-      "rev": 6,
-      "transPve": 1,
-      "transBoss": 1
+      "owned": false,
+      "lb": 0,
+      "ee": 0,
+      "rev": 0,
+      "transPve": 0,
+      "transBoss": 0
     },
     "30": {
-      "owned": true,
-      "lb": 21,
-      "ee": 40,
-      "rev": 6,
-      "transPve": 1,
-      "transBoss": 1
+      "owned": false,
+      "lb": 0,
+      "ee": 0,
+      "rev": 0,
+      "transPve": 0,
+      "transBoss": 0
     },
     "31": {
-      "owned": true,
-      "lb": 21,
-      "ee": 40,
-      "rev": 6,
-      "transPve": 1,
-      "transBoss": 1
+      "owned": false,
+      "lb": 0,
+      "ee": 0,
+      "rev": 0,
+      "transPve": 0,
+      "transBoss": 0
     },
     "32": {
-      "owned": true,
-      "lb": 21,
-      "ee": 40,
-      "rev": 6,
-      "transPve": 1,
-      "transBoss": 1
+      "owned": false,
+      "lb": 0,
+      "ee": 0,
+      "rev": 0,
+      "transPve": 0,
+      "transBoss": 0
     },
     "33": {
       "owned": true,
@@ -336,20 +336,20 @@
       "transBoss": 1
     },
     "35": {
-      "owned": true,
-      "lb": 21,
-      "ee": 40,
-      "rev": 6,
-      "transPve": 1,
-      "transBoss": 1
+      "owned": false,
+      "lb": 0,
+      "ee": 0,
+      "rev": 0,
+      "transPve": 0,
+      "transBoss": 0
     },
     "36": {
-      "owned": true,
-      "lb": 21,
-      "ee": 40,
-      "rev": 6,
-      "transPve": 1,
-      "transBoss": 1
+      "owned": false,
+      "lb": 0,
+      "ee": 0,
+      "rev": 0,
+      "transPve": 0,
+      "transBoss": 0
     },
     "37": {
       "owned": true,
@@ -1056,36 +1056,36 @@
       "transBoss": 1
     },
     "608": {
-      "owned": true,
-      "lb": 21,
-      "ee": 40,
-      "rev": 6,
-      "transPve": 1,
-      "transBoss": 1
+      "owned": false,
+      "lb": 0,
+      "ee": 0,
+      "rev": 0,
+      "transPve": 0,
+      "transBoss": 0
     },
     "609": {
-      "owned": true,
-      "lb": 21,
-      "ee": 40,
-      "rev": 6,
-      "transPve": 1,
-      "transBoss": 1
+      "owned": false,
+      "lb": 0,
+      "ee": 0,
+      "rev": 0,
+      "transPve": 0,
+      "transBoss": 0
     },
     "610": {
-      "owned": true,
-      "lb": 21,
-      "ee": 40,
-      "rev": 6,
-      "transPve": 1,
-      "transBoss": 1
+      "owned": false,
+      "lb": 0,
+      "ee": 0,
+      "rev": 0,
+      "transPve": 0,
+      "transBoss": 0
     },
     "611": {
-      "owned": true,
-      "lb": 21,
-      "ee": 40,
-      "rev": 6,
-      "transPve": 1,
-      "transBoss": 1
+      "owned": false,
+      "lb": 0,
+      "ee": 0,
+      "rev": 0,
+      "transPve": 0,
+      "transBoss": 0
     },
     "612": {
       "owned": true,
