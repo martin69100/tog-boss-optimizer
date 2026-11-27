@@ -11,6 +11,7 @@
 | **Lune (`Zénith`)** | `2339 / 2321 / 2321 / 2321 / 2321` | `27` | 150 héros (4 TransBoss · Sans Collab) | Doris `30`, Runda `30`, Sundance `30`, Bari `23`, Asura `20`, Capelinel `14`, Mago `9` |
 | **Who (`Zénith`)** | `2564 / 2544 / 2544 / 2544 / 2544` | `47` | 150 héros (150 TransBoss · Sans Collab) | Doris `30`, Runda `30`, Capelinel `21`, Asura `14`, Bari `10`, El `6`, Sundance `5` |
 | **Karasu (`Zénith`)** | `2302 / 2283 / 2283 / 2283 / 2283` | `63` | 162 héros (162 TransBoss · Avec Collab) | Doris `30`, Runda `30`, Asura `29`, El `15`, Bari `9`, Mago `6`, Sundance `5` |
+| **Shew** | `1986 / 1967 / 1967 / 1967 / 1967` | `12` *(est.)* | 58 héros enregistrés (1 TransBoss · Sans Collab) | Doris `30`, Runda `16`, Sundance `15`, Bari `8` |
 
 ---
 
@@ -120,3 +121,10 @@
 - **Profil prêt et calibré** : Liens `2302 / 2283×4`, Noyau `63`, Âmes `Doris 30 · Runda 30 · Asura 29 · El 15`, `Red Death Niv. 37 (2/5)`, **162 héros maxés** (`excludeCollab: false`).
 - **Référence IG enregistrée** : **Data Gustang (`2.108 E` / `2 108 P` · Niv. `1822` · Domination `68 vs 63`)**.
 - *(Section prête : demande-moi un boss pour Karasu et je l'ajouterai ici.)*
+
+---
+
+## 5. Shew
+
+- **Profil prêt** : Liens `1986 / 1967×4`, Tri-Essence (`85` Vélocité / `400` PRÉ sur FOR/DEX/INT), Âmes `Doris 30 · Runda 16 · Sundance 15 · Bari 8`, Hangar (`Red Death Niv. 25 (4/5)`, `Aquila Nova Niv. 5 (2/5)`), **58 héros** enregistrés (`excludeCollab: true`).
+- *(Section prête : demande-moi un boss pour Shew et je l'ajouterai ici.)*
