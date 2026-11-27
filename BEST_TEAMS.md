@@ -7,7 +7,7 @@
 
 | Profil | Liens Shinsu (combat) | Noyau Boss | Box & Collabs | Principales Armes d'Âme |
 | :--- | :--- | :---: | :--- | :--- |
-| **Martin (`HorizonFR`)** | `1840 / 1840 / 1840 / 1824 / 1820` | `7` | 143 héros (7 TransBoss · Sans Collab) | Doris `30`, Runda `23`, Bari `16`, El `15`, Sundance `15` |
+| **Martin (`HorizonFR`)** | `1840 / 1840 / 1840 / 1824 / 1820` | `7` | 143 héros (6 TransBoss · Sans Collab) | Doris `30`, Runda `23`, Bari `16`, El `15`, Sundance `15` |
 | **Lune (`Zénith`)** | `2339 / 2321 / 2321 / 2321 / 2321` | `27` | 150 héros (4 TransBoss · Sans Collab) | Doris `30`, Runda `30`, Sundance `30`, Bari `23`, Asura `20`, Capelinel `14`, Mago `9` |
 | **Who (`Zénith`)** | `2564 / 2544 / 2544 / 2544 / 2544` | `47` | 150 héros (150 TransBoss · Sans Collab) | Doris `30`, Runda `30`, Capelinel `21`, Asura `14`, Bari `10`, El `6`, Sundance `5` |
 | **Karasu (`Zénith`)** | `2302 / 2283 / 2283 / 2283 / 2283` | `63` | 162 héros (162 TransBoss · Avec Collab) | Doris `30`, Runda `30`, Asura `29`, El `15`, Bari `9`, Mago `6`, Sundance `5` |
@@ -18,7 +18,7 @@
 ## 1. Martin (`Martin · HorizonFR`)
 
 ### 1.1 Anguille Électrique (`uc_boss_2` · `3 FRONT / 2 BACK` · 0 Dispel requis)
-- **Compo #1 Hypercarry 4 Supports (Simulé)** : **`358.7 T`** avec `Sophia Tan` *(Palier 144 · Domination `11 vs 24`)* / **`360.9 T`** avec `Albelda` *(Domination `10 vs 24`)*
+- **Compo #1 Hypercarry 4 Supports (Simulé)** : **`360.9 T`** avec `Albelda` *(Palier 144 · Domination `10 vs 24`)* · Alternatives BACK : **`Garam XSR+`** (`341.4 T` · Dom `10`, +survie) ou **`Khun Royale Elliot`** (`338.8 T` · vrai **Core Boss +1 → Dom `11`**)
 - **Dernier record IG** : **`172.974 T`** *(Boss Niv. `1415` · `11 contre 22` — bridé car Ha Yuri `+800% ATQ` a volé les buffs Highest ATK de Narae + absence du Brise-Barrière de Traumerei)*
 - **Vaisseau** : **Aquila Nova (`Niv. 20 · Comp. 4/5`)**
 
@@ -27,11 +27,11 @@
 | **FRONT** | **HL `1840`** | **[Treasure Hunter] Narae Seonwoo** *(Rouge)* | **Rafflesia** `+20` | Rés. Mag. / Rés. Phys. | Batterie EP + `+1 680% ATQ` & `+216%` Perçage 100% verrouillés sur Endorsi |
 | **FRONT** | `1824` | **[Family Head] Traumerei** *(EX Vert)* | **Runda (Âme 23)** | Rés. Mag. / Rés. Phys. | **Brise-Barrière** + **`+150% Perçage Magique`** + `-100 Vélocité` Boss + boucliers Runda 23 |
 | **FRONT** | **HL `1840`** | **[Flame of Yeon] Khun** *(Violet)* | **Rafflesia** `+20` | Rés. Mag. / Rés. Phys. | Copie d'ATQ `+300%` + `+120%` Perçage Mag. + `-120%` Rés. Mag. + `8s` Immunité CC |
-| **BACK** | `1820` | **[FUG Elder] Sophia Tan** *(Violet · TransBoss +1)* *(ou `Albelda` à `360.9 T`)* | **Capelinel** `+20` | Rés. Mag. / Rés. Phys. | **`5s` Invincibilité d'équipe** + **`+200 EP`/actif aux Violets** + **aura Capelinel BACK** + **`+1` Domination (`11`)** |
+| **BACK** | `1820` | **[Guide of Spirits] Albelda** *(Jaune)* *(ou `Garam XSR+` / `Khun Royale Elliot TB+1`)* | **Capelinel** `+20` | Rés. Mag. / Rés. Phys. | `-200% DÉF`, `-100% Rés. Mag.`, `-100 Vélocité` + **aura Capelinel BACK** |
 | **BACK** | **HL `1840`** | **[Rebellious Princess] Endorsi** *(Violet)* | **Doris (Âme 30)** | **Dégâts Crit** / **Perçage Mag.** | Seule DPS (`99.9%` DPS — aucun allié ne peut lui voler Narae) |
 
 > [!TIP]
-> **Pourquoi ça corrige le défaut de la team de droite de San** : San avait retiré `Khun Flamme` et n'avait pas `Sophia Tan` (`5s` d'Invincibilité d'équipe + `-160% ATQ / -300 EP` Boss). Ici on garde **à la fois `Khun Flamme`** (`8s` Immunité CC + Sauvetage) **ET `Sophia Tan`** avec **`Traumerei EX`**. Si malgré tout un ancre CàC s'avère nécessaire, utilise **`Blarode (1820, Rafflesia défensif) + Traumerei (1824, Runda 23) + Khun (HL 1840)` / `Narae (HL 1840, Capelinel) + Endorsi (HL 1840, Doris 30)`** (`252.3 T` simulé).
+> **Choix du 5e slot en BACK (`Capelinel +20`)** : **`Albelda`** donne le plafond DPS (`360.9 T`), **`Garam XSR+`** sécurise la survie/EP/Ult Pierce (`341.4 T`), **`Khun Royale Elliot`** monte la Domination à **`11`** (`338.8 T`, `-120` Vélocité Boss, `6s` auto-invincible et `0%` auto-buff ATQ donc zéro vol de Narae), et **`Sophia Tan`** (`312.5 T`, Dom `10`) reste utile uniquement si tu as besoin de ses `5s` d'Invincibilité d'équipe. Si malgré tout un ancre CàC s'avère nécessaire, utilise **`Blarode (1820, Rafflesia défensif) + Traumerei (1824, Runda 23) + Khun (HL 1840)` / `Narae (HL 1840, Capelinel) + Endorsi (HL 1840, Doris 30)`** (`252.3 T` simulé).
 
 ### 1.2 Administrateur du Sanctuaire (`sanctuary_diff_1` · `3 FRONT / 2 BACK` · Dispel 5/5)
 - **Simulé** : **`371.6 T`**
