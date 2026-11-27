@@ -721,8 +721,13 @@
       const c1 = diverseT1[i];
       const exclHeroes = new Set(c1.team.map(u => u.charId));
       const exclShips = new Set(c1.airshipId && c1.airshipId !== "none" ? [c1.airshipId] : []);
+      const soulsCopy = Object.assign({}, globalProg?.iwSoulLevels || {});
+      for (const u of (c1.sim?.units || [])) {
+        if ((u.soulLv || 0) > 0 && u.set) soulsCopy[u.set] = 0;
+      }
+      const progForT2 = Object.assign({}, globalProg, { iwSoulLevels: soulsCopy });
 
-      const t2Res = findBestTeams(bossConfig, globalProg, {
+      const t2Res = findBestTeams(bossConfig, progForT2, {
         ...opts,
         topN: 3,
         excludeIds: exclHeroes,
@@ -736,6 +741,12 @@
 
       if (t2Res.rankings && t2Res.rankings[0]) {
         const c2 = t2Res.rankings[0];
+        for (let k = 0; k < c1.team.length; k++) {
+          if (c1.sim?.units?.[k]) c1.team[k].iwSoulLv = c1.sim.units[k].soulLv || 0;
+        }
+        for (let k = 0; k < c2.team.length; k++) {
+          if (c2.sim?.units?.[k]) c2.team[k].iwSoulLv = c2.sim.units[k].soulLv || 0;
+        }
         pairs.push({
           team1: c1,
           team2: c2,

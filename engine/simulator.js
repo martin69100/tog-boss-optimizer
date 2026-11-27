@@ -149,6 +149,34 @@
     });
   }
 
+  function resolveEffectiveSoulLv(unitConfig, teamConfigs, prog) {
+    const iwMode = unitConfig?.iwMode || prog?.iwMode || "soul0";
+    if (iwMode === "none") return 0;
+    if (unitConfig?.iwSoulLv !== undefined && unitConfig?.iwSoulLv !== null) {
+      return clamp(Math.round(Number(unitConfig.iwSoulLv) || 0), 0, 30);
+    }
+    const baseLv = clamp(Math.round(Number(prog?.iwSoulLevels?.[unitConfig?.set] || 0)), 0, 30);
+    if (baseLv <= 0 || !Array.isArray(teamConfigs) || teamConfigs.length <= 1) return baseLv;
+
+    let bestHolder = null;
+    let bestScore = -Infinity;
+    for (let i = 0; i < teamConfigs.length; i++) {
+      const tc = teamConfigs[i];
+      if (!tc || tc.set !== unitConfig.set) continue;
+      if ((tc.iwMode || iwMode) === "none") continue;
+      if (tc.iwSoulLv !== undefined && tc.iwSoulLv !== null && Number(tc.iwSoulLv) <= 0) continue;
+      const ch = DB.CHARACTERS.find(c => c.id === tc.charId);
+      const isCarryRole = ch && ch.role !== "Support" && ch.role !== "Tank";
+      const slv = Number(tc.shinsuLevel || prog?.shinsuLevel || 0);
+      const score = (isCarryRole ? 100000 : 0) + slv * 10 - i;
+      if (score > bestScore) {
+        bestScore = score;
+        bestHolder = tc;
+      }
+    }
+    return bestHolder === unitConfig ? baseLv : 0;
+  }
+
   function getEffectiveAirship(airshipId, prog) {
     const base = DB.AIRSHIPS[airshipId] || DB.AIRSHIPS.none;
     if (!base || base.id === "none") return base;
@@ -290,7 +318,7 @@
     // Ignition Set + Soul Lv (0..30) + Slot 4 + Slot 5 + Substats (ignorés si iwMode === "none")
     const iwMode = unitConfig.iwMode || prog.iwMode || "soul0";
     if (iwMode !== "none") {
-      const soulLv = clamp(Math.round(Number(unitConfig.iwSoulLv ?? prog.iwSoulLevels?.[unitConfig.set] ?? 0)), 0, 30);
+      const soulLv = resolveEffectiveSoulLv(unitConfig, teamConfigs, prog);
       const ignSet = getEffectiveIgnSet(unitConfig.set, soulLv);
       if (ignSet.bonus2p) addStatsInto(total, ignSet.bonus2p);
       if (ignSet.bonus4p && !ignSet.bonus4p.sameRowOnly && !ignSet.bonus4p.backRowOnly) {
@@ -710,7 +738,7 @@
       const char = statInfo.char;
       const passive = char.skills?.passive || {};
       const iwMode = cfg.iwMode || opts.iwMode || prog.iwMode || "soul0";
-      const soulLv = iwMode === "none" ? 0 : clamp(Math.round(Number(cfg.iwSoulLv ?? prog.iwSoulLevels?.[cfg.set] ?? 0)), 0, 30);
+      const soulLv = iwMode === "none" ? 0 : resolveEffectiveSoulLv(cfg, teamConfigs, prog);
       const ignSet = iwMode === "none" ? EMPTY_IGN_SET : getEffectiveIgnSet(cfg.set, soulLv);
       const startEp = passive.startUltAtZero
         ? CFG.MAX_ENERGY
