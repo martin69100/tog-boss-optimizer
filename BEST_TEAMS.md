@@ -1,0 +1,122 @@
+# Best Teams par Profil — Tower of God: New World
+
+> [!NOTE]
+> Récapitulatif vivant contenant **uniquement les équipes déjà optimisées et/ou validées en jeu** au fil de nos échanges (sans doublon d'Arme d'Âme, de héros ni de Vaisseau). Mise à jour possible au fur et à mesure de tes prochaines demandes.
+
+## Résumé des Profils
+
+| Profil | Liens Shinsu (combat) | Noyau Boss | Box & Collabs | Principales Armes d'Âme |
+| :--- | :--- | :---: | :--- | :--- |
+| **Martin (`HorizonFR`)** | `1840 / 1840 / 1840 / 1821 / 1820` | `7` | 143 héros (7 TransBoss · Sans Collab) | Doris `30`, Runda `23`, Bari `16`, El `15`, Sundance `15` |
+| **Lune (`Zénith`)** | `2339 / 2321 / 2321 / 2321 / 2321` | `27` | 150 héros (4 TransBoss · Sans Collab) | Doris `30`, Runda `30`, Sundance `30`, Bari `23`, Asura `20`, Capelinel `14`, Mago `9` |
+| **Who (`Zénith`)** | `2564 / 2544 / 2544 / 2544 / 2544` | `47` | 150 héros (150 TransBoss · Sans Collab) | Doris `30`, Runda `30`, Capelinel `21`, Asura `14`, Bari `10`, El `6`, Sundance `5` |
+| **Karasu (`Zénith`)** | `2302 / 2283 / 2283 / 2283 / 2283` | `63` | 162 héros (162 TransBoss · Avec Collab) | Doris `30`, Runda `30`, Asura `29`, El `15`, Bari `9`, Mago `6`, Sundance `5` |
+
+---
+
+## 1. Martin (`Martin · HorizonFR`)
+
+### 1.1 Anguille Électrique (`uc_boss_2` · `3 FRONT / 2 BACK` · 0 Dispel requis)
+- **Validé IG** : **`163.955 T`** *(Palier 142 · Boss Niv. `1413` · Domination `10 vs 22`)*
+- **Vaisseau** : **Aquila Nova (`Niv. 20 · Comp. 4/5`)**
+
+| Pos. | Shinsu | Personnage | Set IW (+ Âme unique) | Stats IW Slot 4 / Slot 5 | Rôle clé |
+| :---: | :---: | :--- | :--- | :--- | :--- |
+| **FRONT** | **HL `1840`** | **[Flame of Yeon] Khun** *(Violet)* | **Capelinel** `+20` | Rés. Mag. / Rés. Phys. | Tanking FRONT + `+300%` copie d'ATQ & shred Rés. Magique |
+| **FRONT** | **HL `1840`** | **[Treasure Hunter] Narae Seonwoo** *(Rouge)* | **Rafflesia** `+20` | Rés. Mag. / Rés. Phys. | Batterie EP + `+720% ATQ` & Perçage sur Endorsi |
+| **FRONT** | `1821` | **[Princess of Zahard] Garam** *(XSR+ Bleu)* *ou `Soo-oh`* | **Runda (Âme 23)** | Rés. Mag. / Rés. Phys. | Support EP / Perçage Ult + boucliers Runda 23 |
+| **BACK** | **HL `1840`** | **[Rebellious Princess] Endorsi** *(Violet)* | **Doris (Âme 30)** | **Dégâts Crit** / **Perçage Mag.** | Carry principal (`~99%` DPS), Haste illimité |
+| **BACK** | `1820` | **[Guide of Spirits] Albelda** *(Jaune)* | **Rafflesia** `+20` | Rés. Mag. / Rés. Phys. | Lien d'âme + buff ATQ sur Endorsi |
+
+### 1.2 Administrateur du Sanctuaire (`sanctuary_diff_1` · `3 FRONT / 2 BACK` · Dispel 5/5)
+- **Simulé** : **`371.6 T`**
+- **Vaisseau** : **Aquila Nova (`Niv. 20 · Comp. 4/5`)**
+
+| Pos. | Shinsu | Personnage | Set IW (+ Âme unique) | Stats IW Slot 4 / Slot 5 | Rôle clé |
+| :---: | :---: | :--- | :--- | :--- | :--- |
+| **FRONT** | **HL `1840`** | **[Treasure Hunter] Narae Seonwoo** *(Rouge)* | **Rafflesia** `+20` | Rés. Mag. / Rés. Phys. | Batterie EP + `+720% ATQ` & Perçage sur Endorsi |
+| **FRONT** | `1821` | **[Princess of Zahard] Garam** *(XSR+ Bleu)* | **Runda (Âme 23)** | Rés. Mag. / Rés. Phys. | **Purge les Invincibilités (5/5)** + recharge EP + boucliers Runda |
+| **FRONT** | `1820` | **[Guide of Spirits] Albelda** *(Jaune)* | **Rafflesia** `+20` | Rés. Mag. / Rés. Phys. | Lien d'âme + survie d'ouverture |
+| **BACK** | **HL `1840`** | **[Rebellious Princess] Endorsi** *(Violet)* | **Doris (Âme 30)** | **Dégâts Crit** / **Perçage Mag.** | Carry principal, Haste illimité |
+| **BACK** | **HL `1840`** | **[Flame of Yeon] Khun** *(Violet)* | **Capelinel** `+20` | Rés. Mag. / Rés. Phys. | Copie d'ATQ `+300%` + aura **Capelinel BACK** sur Endorsi |
+
+### 1.3 Data Gustang (`brr_data_gustang` · 2 Équipes Disjointes · `1 FRONT / 4 BACK`)
+- **Validé IG** : **`167.87 T` cumulés** (`150.15 T` + `17.72 T`)
+
+**Équipe 1 (`150.15 T` IG · Palier 142 · `Lv. 1411` · `10 vs 22`)** — Vaisseau : **Aquila Nova (`Niv. 20 · Comp. 4/5`)**
+
+| Pos. | Shinsu | Personnage | Set IW (+ Âme unique) | Stats IW Slot 4 / Slot 5 | Rôle clé |
+| :---: | :---: | :--- | :--- | :--- | :--- |
+| **FRONT** | **HL `1840`** | **[Flame of Yeon] Khun** *(Violet)* | **Capelinel** `+20` | Rés. Mag. / Rés. Phys. | Tank solo FRONT + `+300%` ATQ & shred Rés. Magique |
+| **BACK** | **HL `1840`** | **[Rebellious Princess] Endorsi** *(Violet)* | **Doris (Âme 30)** | **Dégâts Crit** / **Perçage Mag.** | **`149 T` (`99.2%` DPS)** |
+| **BACK** | **HL `1840`** | **[Treasure Hunter] Narae Seonwoo** *(Rouge)* | **Rafflesia** `+20` | Rés. Mag. / Rés. Phys. | Batterie EP + `+720% ATQ` & Perçage |
+| **BACK** | `1821` | **[Princess of Zahard] Garam** *(XSR+ Bleu)* | **Capelinel** `+20` | Rés. Mag. / Rés. Phys. | Purge Invincibilités + aura **Capelinel BACK** |
+| **BACK** | `1820` | **[Guide of Spirits] Albelda** *(Jaune)* | **Rafflesia** `+20` | Rés. Mag. / Rés. Phys. | Lien d'âme sur Endorsi |
+
+**Équipe 2 (`17.72 T` IG · Palier 132 · `Lv. 1316` · `7 vs 12`)** — Vaisseau : **Vigilantia (`Niv. 16 · Comp. 3/5`)**
+
+| Pos. | Shinsu | Personnage | Set IW (+ Âme unique) | Stats IW Slot 4 / Slot 5 | Rôle clé |
+| :---: | :---: | :--- | :--- | :--- | :--- |
+| **FRONT** | `1821` | **[FUG Executive] Ha Yura** *(Violet)* | **Rafflesia** `+20` | Rés. Mag. / Rés. Phys. | Tank solo FRONT + batterie d'équipe |
+| **BACK** | **HL `1840`** | **[Family Head] Yirang Yeon** *(EX Vert)* | **Sundance (Âme 15)** | **Dégâts Crit** / **Perçage Phys.** | **`15.53 T` (`87.7%` DPS)** + Brise-Barrière |
+| **BACK** | **HL `1840`** | **[Akrinak] Nen Neya** *(Bleu)* | **Capelinel** `+20` | Dégâts Crit / Perçage Phys. | Purge / Brise-Barrière + `-80%` DÉF Boss + aura BACK |
+| **BACK** | **HL `1840`** | **[Opera Holder] Repellista** *(Rouge)* | **Runda (Âme 23)** | Rés. Mag. / Rés. Phys. | Opéra (`+400% ATQ` & `-80% DÉF`) + boucliers Runda |
+| **BACK** | `1820` | **[Golden Carp] Ju** *(SSR Vert)* | **El (Âme 15)** | Rés. Mag. / Rés. Phys. | Shred `-80%` Rés. Verte + `+160% ATQ` |
+
+---
+
+## 2. Lune (`Lune · Zénith`)
+
+### 2.1 Zigena — Vert (`uwb_zygaena_land` · `3 FRONT / 2 BACK` · Sans Collab)
+- **Validé IG** : **`2.841 P`** (`2 841 T` · Palier 153 · Domination `28 vs 33` · **#2 Alliance · Top 1.09% Monde**)
+- **Vaisseau** : **Vigilantia (`Niv. 21 · Comp. 3/5`)** *(passer `5/5` + TransBoss sur Princesse Énigmatique dès que possible pour franchir le Top 1%)*
+
+| Pos. | Shinsu | Personnage | Set IW (+ Âme unique) | Stats IW Slot 4 / Slot 5 | Rôle clé |
+| :---: | :---: | :--- | :--- | :--- | :--- |
+| **FRONT** | **HL `2339`** | **[Family Head] Yirang Yeon** *(EX)* | **Sundance (Âme 30)** | **Dégâts Crit** / **Perçage Phys.** | Carry principal + Purge 5/5 + `-80% DÉF / Rés. Phys.` |
+| **FRONT** | `2321` | **[Family Head] Traumerei** *(EX)* | **Runda (Âme 30)** | Rés. Mag. / Rés. Phys. | Brise-Barrière + `+80% ATQ/DÉF` + boucliers Runda 30 |
+| **FRONT** | `2321` | **[Serpent Master's Offspring] Lilial** *(SSR+)* | **Capelinel (Âme 14)** | Dégâts Crit / Perçage Mag. | Aura **Capelinel FRONT** sur Yirang + drain EP |
+| **BACK** | `2321` | **[Enigmatic] Princess of Zahard** *(SSR+)* | **Doris (Âme 30)** | **Dégâts Crit** / **Perçage Phys.** | Second gros DPS Physique + `-60% Rés. Phys.` |
+| **BACK** | `2321` | **[Golden Carp] Ju** *(SSR)* | **Rafflesia** `+20` *(ou 2e `Capelinel +20`)* | Rés. Mag. / Rés. Phys. | Shred `-80%` Rés. Verte + `+160% ATQ` |
+
+### 2.2 Autres couleurs Zigena calculées pour Lune (`3 FRONT / 2 BACK` · Sans Collab)
+- **Violet (`Aquila Nova`)** : FRONT `[Red Lantern] Shilial` (Sundance 30) + `[FUG Elder] Sophia Tan` (Runda 30) + `[Dark Abyss] Ghost` (Capelinel 14) · BACK `[Rebellious Princess] Endorsi` (**HL `2339`**, Asura 20 / Doris 30) + `[Flame of Yeon] Khun` (Doris 30 / Rafflesia `+20`).
+- **Rouge (`Aquila Nova`)** : FRONT `[Lunatic] Tiara` (**HL `2339`**, Sundance 30) + `[Destined Path] Hwaryun` (Runda 30) + `[Opera Holder] Repellista` (Capelinel 14) · BACK `[Deep-Sea Fish] Hansung Yu` (`Rafflesia +20`) + `[Treasure Hunter] Narae Seonwoo` (`Rafflesia +20`).
+- **Bleu (`Aquila Nova`)** : FRONT `[Princess of Zahard] Garam XSR+` (Runda 30) + `[Fortune Teller Witch] Soo-oh` (Capelinel 14) + `[God of FUG] V` (**HL `2339`**, Asura 20) · BACK `[Hermit] Garam` (`Rafflesia +20`) + `[4th Corps Commander] Lyborick` (`Doris 30`).
+- **Jaune (`Vigilantia`)** : FRONT `[Noble Swordsman] White` (Asura 20) + `[Data] Urek Mazino` (Runda 30) + `[First Man] Cha` (**HL `2339`**, Sundance 30) · BACK `[Guide of Spirits] Albelda` (Capelinel 14) + `[Shinsu Picture] Augusgus` (Doris 30).
+
+---
+
+## 3. Who (`Who · Zénith`)
+
+### 3.1 Zigena — Vert (`uwb_zygaena_land` · `3 FRONT / 2 BACK` · Sans Collab)
+- **Simulé** : **`81.6 E`** (`52` Domination)
+- **Vaisseau** : **Vigilantia (`Niv. 28 · Comp. 5/5`)**
+
+| Pos. | Shinsu | Personnage | Set IW (+ Âme unique) | Stats IW Slot 4 / Slot 5 | Rôle clé |
+| :---: | :---: | :--- | :--- | :--- | :--- |
+| **FRONT** | **HL `2564`** | **[Family Head] Yirang Yeon** *(EX)* | **Asura (Âme 14)** | **Dégâts Crit** / **Perçage Phys.** | Carry principal + Purge 5/5 + `-80% DÉF / Rés. Phys.` |
+| **FRONT** | `2544` | **[Family Head] Traumerei** *(EX)* | **Runda (Âme 30)** | Rés. Mag. / Rés. Phys. | Brise-Barrière + `+80% ATQ/DÉF` + boucliers Runda 30 |
+| **FRONT** | `2544` | **[Serpent Master's Offspring] Lilial** *(SSR+)* | **Capelinel (Âme 21)** | Dégâts Crit / Perçage Mag. | Aura **Capelinel FRONT** (`+30% Pierce / -30% Rés`) + drain EP |
+| **BACK** | `2544` | **[Enigmatic] Princess of Zahard** *(SSR+)* | **Doris (Âme 30)** | **Dégâts Crit** / **Perçage Phys.** | Second gros DPS Physique *(tester aussi en HL `2564` avec Capelinel sur Ju)* |
+| **BACK** | `2544` | **[Golden Carp] Ju** *(SSR)* | **Rafflesia** `+20` *(ou 2e `Capelinel +20`)* | Rés. Mag. / Rés. Phys. | Shred `-80%` Rés. Verte + `+160% ATQ` |
+
+### 3.2 Anguille Électrique (`uc_boss_2` · `3 FRONT / 2 BACK` · Sans Collab)
+- **Simulé** : **`675.0 E`** *(0 Dispel requis — Endorsi Magique exploite le `+150% Perçage Magique` Rév.6 de Traumerei EX)*
+- **Vaisseau** : **Aquila Nova** *(ou **Gloamspire** s'il est plus monté dans son Hangar)*
+
+| Pos. | Shinsu | Personnage | Set IW (+ Âme unique) | Stats IW Slot 4 / Slot 5 | Rôle clé |
+| :---: | :---: | :--- | :--- | :--- | :--- |
+| **FRONT** | `2544` | **[Fortune Teller Witch] Soo-oh** *(Bleu)* | **Rafflesia** `+20` | Rés. Mag. / Rés. Phys. | Poisson Jade (`-Rés. Crit` · *remplaçable par **`[Flame of Yeon] Khun`** à `630.4 E`*) |
+| **FRONT** | `2544` | **[Family Head] Traumerei** *(EX Vert)* | **Runda (Âme 30)** | Rés. Mag. / Rés. Phys. | **`+150% Perçage Magique`** + `+80% ATQ/DÉF` + boucliers Runda 30 |
+| **FRONT** | `2544` | **[Treasure Hunter] Narae Seonwoo** *(Rouge)* | **Rafflesia** `+20` | Rés. Mag. / Rés. Phys. | Batterie EP + `+720% ATQ` & Perçage sur Endorsi |
+| **BACK** | **HL `2564`** | **[Rebellious Princess] Endorsi** *(Violet)* | **Doris (Âme 30)** | **Dégâts Crit** / **Perçage Mag.** | Carry principal (`99.8%` DPS), Haste illimité |
+| **BACK** | `2544` | **[Guide of Spirits] Albelda** *(Jaune)* | **Capelinel (Âme 21)** | Rés. Mag. / Rés. Phys. | Lien d'âme + aura **Capelinel BACK** sur Endorsi |
+
+---
+
+## 4. Karasu (`Karasu · Zénith`)
+
+- **Profil prêt et calibré** : Liens `2302 / 2283×4`, Noyau `63`, Âmes `Doris 30 · Runda 30 · Asura 29 · El 15`, `Red Death Niv. 37 (2/5)`, **162 héros maxés** (`excludeCollab: false`).
+- **Référence IG enregistrée** : **Data Gustang (`2.108 E` / `2 108 P` · Niv. `1822` · Domination `68 vs 63`)**.
+- *(Section prête : demande-moi un boss pour Karasu et je l'ajouterai ici.)*
