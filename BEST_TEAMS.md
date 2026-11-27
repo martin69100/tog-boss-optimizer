@@ -18,13 +18,14 @@
 ## 1. Martin (`Martin · HorizonFR`)
 
 ### 1.1 Anguille Électrique (`uc_boss_2` · `3 FRONT / 2 BACK` · 0 Dispel requis)
-- **Record IG actuel** : **`172.974 T`** *(1 CàC sans Traumerei · `11 vs 22` — contre `163.955 T` en 5× Distance et `136.298 T` avec Traumerei où les AoE boss montent ×4.1 à `9,633 J` et tuent Endorsi)*
-- **Compo recommandée à valider IG (`241.2 T` simulé avec `Albelda` · `215.3 T` avec `Soo-oh` · `208.1 T` avec `Garam XSR+`)** — Vaisseau : **Aquila Nova (`Niv. 20 · Comp. 4/5`)**
+- **Validé IG** : **`262.013 T`** *(`262 013 G` · Palier 143 · Boss Niv. `1427` · Domination `10 contre 23` — **+60%** vs `163.955 T` en 5× Distance et **+92%** vs `136.298 T` avec Traumerei)*
+- **Axes de grattage vers `285–300 T` (Palier 144)** : tester **`[Serpent Master's Offspring] Lilial`** (`282.0 T` simulé, CàC capé à `3%` PV max/coup + `-80% DÉF / -40% Rés. Mag.`) ou **`[Destined Path] Hwaryun`** (`287.6 T` simulé, CàC `+40% Crit`) à la place de Blarode en **FRONT gauche (`1820`)**, et **`Rafflesia +20` sur Albelda** si elle survit sans `Runda 23`
+- **Vaisseau** : **Aquila Nova (`Niv. 20 · Comp. 4/5`)**
 
 | Pos. | Shinsu | Personnage | Set IW (+ Âme unique) | Stats IW Slot 4 / Slot 5 | Rôle clé |
 | :---: | :---: | :--- | :--- | :--- | :--- |
-| **FRONT** | `1820` | **[One-eyed Wolf] Blarode** *(SSR Bleu · CàC)* | **Rafflesia** `+20` | Rés. Mag. / Rés. Phys. | **Ancre CàC** (`239 G` ATQ < `313 G` Endorsi = **0 vol de Narae**) + `Isolate` (`-DÉF / -Vélocité`) |
-| **FRONT** | `1824` | **[Guide of Spirits] Albelda** *(ou **`Soo-oh EE30`** / **`Garam XSR+`** si Endorsi tombe)* | **Runda (Âme 23)** | Rés. Mag. / Rés. Phys. | Debuffs DÉF/Rés. Mag. *(ou `-80% ATQ Boss` & `-40% Rés. Crit` avec Soo-oh)* + boucliers Runda 23 |
+| **FRONT** | `1820` | **[One-eyed Wolf] Blarode** *(ou `Lilial SSR+` / `Hwaryun SSR`)* | **Rafflesia** `+20` | Rés. Mag. / Rés. Phys. | **Ancre CàC** en FRONT gauche (`239 G` ATQ < `313 G` Endorsi = **0 vol de Narae**) + `Isolate` |
+| **FRONT** | `1824` | **[Guide of Spirits] Albelda** *(Jaune)* | **Runda (Âme 23)** *(ou `Rafflesia +20`)* | Rés. Mag. / Rés. Phys. | `-200% DÉF`, `-100% Rés. Mag.`, `-100 Vélocité` + boucliers Runda 23 *(ou `+19 T` en Rafflesia)* |
 | **FRONT** | **HL `1840`** | **[Flame of Yeon] Khun** *(Violet)* | **Rafflesia** `+20` | Rés. Mag. / Rés. Phys. | Copie d'ATQ `+300%` + `+120%` Perçage Mag. + `8s` Immunité CC + Sauvetage |
 | **BACK** | **HL `1840`** | **[Rebellious Princess] Endorsi** *(Violet)* | **Doris (Âme 30)** | **Dégâts Crit** / **Perçage Mag.** | Carry principal (`99.9%` DPS) |
 | **BACK** | **HL `1840`** | **[Treasure Hunter] Narae Seonwoo** *(Rouge)* | **Capelinel** `+20` | Rés. Mag. / Rés. Phys. | **Impérativement sur `HL 1840`** — Batterie EP + `+1 680% ATQ` sur Endorsi + **aura Capelinel BACK** |
